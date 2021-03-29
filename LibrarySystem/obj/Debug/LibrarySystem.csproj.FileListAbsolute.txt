@@ -1,0 +1,210 @@
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.exe
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\LibrarySystem.pdb
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csprojResolveAssemblyReference.cache
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Form1.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.Cache
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.exe
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.pdb
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\MySql.Data.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\Google.Protobuf.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\MySql.Data.xml
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmBooks.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmBorrow.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmBorrower.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmReturned.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmOverdue.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmCategories.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmUser.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportSource.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.Shared.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\FlashControlV71.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\ShockwaveFlashObjects.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\bin\Debug\stdole.dll
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmReport.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmLogin.resources
+c:\users\win10\documents\visual studio 2015\Projects\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.frmLogs.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.pdb
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\LibrarySystem.exe
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\LibrarySystem.pdb
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\FlashControlV71.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\MySql.Data.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\Google.Protobuf.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\Renci.SshNet.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\stdole.dll
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\bin\Debug\MySql.Data.xml
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.csprojResolveAssemblyReference.cache
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.Form1.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmBooks.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmBorrow.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmBorrower.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmCategories.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmLogin.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmLogs.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmOverdue.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmReport.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmReturned.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frmUser.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.Cache
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.exe
+C:\Users\Janobe\Downloads\librarysystem_6-3-19\LibrarySystem\obj\Debug\LibrarySystem.frm_login.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\LibrarySystem.exe
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\LibrarySystem.pdb
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\BouncyCastle.Crypto.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.Shared.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\Google.Protobuf.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\K4os.Compression.LZ4.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\K4os.Hash.xxHash.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\MySql.Data.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\Renci.SshNet.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\System.Buffers.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\System.Memory.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\Ubiety.Dns.Core.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\Zstandard.Net.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\AxShockwaveFlashObjects.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\ShockwaveFlashObjects.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\stdole.dll
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\Google.Protobuf.pdb
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\Google.Protobuf.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\K4os.Compression.LZ4.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\K4os.Hash.xxHash.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\MySql.Data.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\Renci.SshNet.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\System.Buffers.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\System.Memory.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.Form1.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmBooks.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmBorrow.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmBorrower.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmCategories.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmLogin.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmLogs.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmOverdue.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmReport.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmReturned.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frmUser.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.frm_login.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.cache
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.csproj.CoreCompileInputs.cache
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.csproj.CopyComplete
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.exe
+C:\repos\librarymanagementsystem_1\LibrarySystem\obj\Debug\LibrarySystem.pdb
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.exe.config
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.exe
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.pdb
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\Google.Protobuf.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\MySql.Data.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\Renci.SshNet.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\System.Buffers.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\System.Memory.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\Zstandard.Net.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\stdole.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\Google.Protobuf.pdb
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\Google.Protobuf.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\MySql.Data.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\Renci.SshNet.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\System.Buffers.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\System.Memory.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Form1.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmBooks.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmBorrow.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmBorrower.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmCategories.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmLogin.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmLogs.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmOverdue.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmReport.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmReturned.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmUser.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frm_login.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.cache
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.CopyComplete
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.exe
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.pdb
