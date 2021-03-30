@@ -92,7 +92,7 @@
             this.UsernameLabel.Name = "UsernameLabel";
             this.UsernameLabel.Size = new System.Drawing.Size(237, 23);
             this.UsernameLabel.TabIndex = 13;
-            this.UsernameLabel.Text = "Usuario-Ingresar";
+            this.UsernameLabel.Text = "Usuario-Ingresar_Julia";
             this.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // LogoPictureBox
