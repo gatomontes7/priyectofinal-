@@ -226,7 +226,10 @@ namespace LibrarySystem
             {
                 Properties.Settings.Default.lenguaje = "es";
                 Properties.Settings.Default.Save();
+                
+                frm_login frm = new frm_login();
                 this.Close();
+                frm.Show();
             }
 
         }
@@ -244,7 +247,9 @@ namespace LibrarySystem
             {
                 Properties.Settings.Default.lenguaje = "en-US";
                 Properties.Settings.Default.Save();
+                frm_login frm = new frm_login();
                 this.Close();
+                frm.Show();
             }
 
         }

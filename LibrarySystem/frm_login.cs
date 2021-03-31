@@ -30,7 +30,6 @@ namespace LibrarySystem
             {
                 Form frm = new Form1();
                 this.Hide();
-
                 frm.Show();
             }
             else
@@ -45,6 +44,16 @@ namespace LibrarySystem
             //PasswordLabel.Text = Properties.Settings.Default.lenguaje;
             //Properties.Settings.Default.lenguaje = PasswordLabel.Text;
             //Properties.Settings.Default.Save();
+        }
+
+        private void frm_login_Load(object sender, EventArgs e)
+        {
+            GetText();
+        }
+
+        private void GetText()
+        {
+            PasswordLabel.Text = Res.frm_login;
         }
     }
 }
