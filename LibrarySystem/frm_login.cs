@@ -42,6 +42,9 @@ namespace LibrarySystem
         private void Cancel_Click(object sender, EventArgs e)
         {
             this.Close();
+            //PasswordLabel.Text = Properties.Settings.Default.lenguaje;
+            //Properties.Settings.Default.lenguaje = PasswordLabel.Text;
+            //Properties.Settings.Default.Save();
         }
     }
 }

@@ -208,6 +208,45 @@ namespace LibrarySystem
             Form frm = new frmUser();
             frm.ShowDialog();
         }
- 
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void spanishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message = "You are sure you want to change the Language to Spanish";
+            string caption = "Confirmation";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            result = MessageBox.Show(message, caption, buttons);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                Properties.Settings.Default.lenguaje = "es";
+                Properties.Settings.Default.Save();
+                this.Close();
+            }
+
+        }
+
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        
+            string message = "You are sure you want to change the Language to English";
+            string caption = "Confirmation";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            result = MessageBox.Show(message, caption, buttons);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                Properties.Settings.Default.lenguaje = "en-US";
+                Properties.Settings.Default.Save();
+                this.Close();
+            }
+
+        }
     }
 }

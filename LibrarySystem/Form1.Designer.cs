@@ -40,6 +40,7 @@
             this.manageCategoriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageBooksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageBorowersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userLogsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTIme = new System.Windows.Forms.Label();
@@ -47,11 +48,13 @@
             this.lblUSer = new System.Windows.Forms.Label();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.manageUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -126,6 +129,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.languageToolStripMenuItem,
             this.logoutToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -134,8 +138,9 @@
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.logoutToolStripMenuItem.Text = "Logout";
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // manageCategoriesToolStripMenuItem
             // 
@@ -157,6 +162,13 @@
             this.manageBorowersToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
             this.manageBorowersToolStripMenuItem.Text = "Manage Borowers";
             this.manageBorowersToolStripMenuItem.Click += new System.EventHandler(this.manageBorowersToolStripMenuItem_Click);
+            // 
+            // manageUsersToolStripMenuItem
+            // 
+            this.manageUsersToolStripMenuItem.Name = "manageUsersToolStripMenuItem";
+            this.manageUsersToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
+            this.manageUsersToolStripMenuItem.Text = "Manage Users";
+            this.manageUsersToolStripMenuItem.Click += new System.EventHandler(this.manageUsersToolStripMenuItem_Click);
             // 
             // reportsToolStripMenuItem
             // 
@@ -234,13 +246,6 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // manageUsersToolStripMenuItem
-            // 
-            this.manageUsersToolStripMenuItem.Name = "manageUsersToolStripMenuItem";
-            this.manageUsersToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
-            this.manageUsersToolStripMenuItem.Text = "Manage Users";
-            this.manageUsersToolStripMenuItem.Click += new System.EventHandler(this.manageUsersToolStripMenuItem_Click);
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -285,6 +290,29 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // languageToolStripMenuItem
+            // 
+            this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.spanishToolStripMenuItem,
+            this.englishToolStripMenuItem});
+            this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+            this.languageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.languageToolStripMenuItem.Text = "language";
+            // 
+            // spanishToolStripMenuItem
+            // 
+            this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
+            this.spanishToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.spanishToolStripMenuItem.Text = "Spanish";
+            this.spanishToolStripMenuItem.Click += new System.EventHandler(this.spanishToolStripMenuItem_Click);
+            // 
+            // englishToolStripMenuItem
+            // 
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            this.englishToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.englishToolStripMenuItem.Text = "English";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -308,7 +336,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Library Management System";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized; 
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -344,6 +372,9 @@
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripMenuItem manageUsersToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem spanishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
     }
 }
 
