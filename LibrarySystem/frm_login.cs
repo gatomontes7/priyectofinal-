@@ -53,7 +53,7 @@ namespace LibrarySystem
 
         private void GetText()
         {
-            PasswordLabel.Text = Res.frm_login;
+            //PasswordLabel.Text = Res.frm_login;
         }
     }
 }
