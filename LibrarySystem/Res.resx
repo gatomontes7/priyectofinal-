@@ -193,7 +193,7 @@
     <value>Manage Users</value>
   </data>
   <data name="frm_login" xml:space="preserve">
-    <value>Log in</value>
+    <value>Iniciar Sesion</value>
   </data>
   <data name="groupbooks" xml:space="preserve">
     <value>Books</value>
@@ -262,7 +262,7 @@
     <value>Contact No.:</value>
   </data>
   <data name="lbcontrasena" xml:space="preserve">
-    <value>Password</value>
+    <value>Contraseña:</value>
   </data>
   <data name="lbcourse" xml:space="preserve">
     <value>Course/Year:</value>
@@ -343,7 +343,7 @@
     <value>Type of Books:</value>
   </data>
   <data name="lbusername" xml:space="preserve">
-    <value>Username:</value>
+    <value>Usuario:</value>
   </data>
   <data name="lbusuario" xml:space="preserve">
     <value>Username</value>

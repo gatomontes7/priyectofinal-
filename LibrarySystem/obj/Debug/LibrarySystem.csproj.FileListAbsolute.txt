@@ -466,7 +466,6 @@ C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.exe.config
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.exe
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.pdb
-C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\es\LibrarySystem.resources.dll
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\en-US\LibrarySystem.resources.dll
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
@@ -523,12 +522,11 @@ C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\L
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmUser.resources
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frm_login.resources
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
-C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.es.resources
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.en-US.resources
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.cache
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.CoreCompileInputs.cache
-C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\es\LibrarySystem.resources.dll
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\en-US\LibrarySystem.resources.dll
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.CopyComplete
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.exe
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.pdb
+C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.resources
