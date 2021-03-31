@@ -411,14 +411,12 @@ C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frmUser.resources
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.frm_login.resources
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Properties.Resources.resources
-C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.es.resources
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.en-US.resources
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.GenerateResource.cache
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.CoreCompileInputs.cache
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.exe.config
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.exe
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\LibrarySystem.pdb
-C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\es\LibrarySystem.resources.dll
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\en-US\LibrarySystem.resources.dll
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
@@ -461,7 +459,6 @@ C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\System.Buffers.xml
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\System.Memory.xml
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\es\LibrarySystem.resources.dll
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\en-US\LibrarySystem.resources.dll
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.csproj.CopyComplete
 C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.exe

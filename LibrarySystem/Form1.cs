@@ -235,8 +235,7 @@ namespace LibrarySystem
         }
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-        
+        {      
             string message = "You are sure you want to change the Language to English";
             string caption = "Confirmation";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
@@ -251,7 +250,6 @@ namespace LibrarySystem
                 this.Close();
                 frm.Show();
             }
-
         }
     }
 }

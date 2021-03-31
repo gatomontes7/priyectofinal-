@@ -241,10 +241,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Res.es.resx" />
-    <EmbeddedResource Include="Res.en-US.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Res.en-US.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Res.en-US.resx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
