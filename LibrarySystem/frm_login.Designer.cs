@@ -83,7 +83,7 @@
             this.PasswordLabel.Name = "PasswordLabel";
             this.PasswordLabel.Size = new System.Drawing.Size(237, 23);
             this.PasswordLabel.TabIndex = 16;
-            this.PasswordLabel.Text = "&Password";
+            this.PasswordLabel.Text = "&Passwordsssssws";
             this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // UsernameLabel
