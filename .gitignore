@@ -33,6 +33,9 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
+LibrarySystem/obj/Debug/
+.LibrarySystem/obj/Debug/
+
 LibrarySystem/obj/Debug/LibrarySystem.csproj.FileListAbsolute.txt
 .LibrarySystem/obj/Debug/LibrarySystem.csproj.FileListAbsolute.txt
 
