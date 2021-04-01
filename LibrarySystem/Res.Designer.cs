@@ -754,6 +754,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Año / Sección:.
+        /// </summary>
+        internal static string lbyessection {
+            get {
+                return ResourceManager.GetString("lbyessection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Reporte diario.
         /// </summary>
         internal static string rddailyreport {
