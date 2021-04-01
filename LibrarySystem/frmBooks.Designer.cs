@@ -95,7 +95,7 @@
             // 
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Label9.Location = new System.Drawing.Point(444, 98);
+            this.Label9.Location = new System.Drawing.Point(439, 98);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(107, 17);
             this.Label9.TabIndex = 44;
@@ -126,7 +126,7 @@
             this.Label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label11.Location = new System.Drawing.Point(501, 172);
+            this.Label11.Location = new System.Drawing.Point(450, 172);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(64, 20);
             this.Label11.TabIndex = 42;
@@ -211,7 +211,7 @@
             // 
             this.Label6.AutoSize = true;
             this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label6.Location = new System.Drawing.Point(32, 121);
+            this.Label6.Location = new System.Drawing.Point(21, 121);
             this.Label6.Name = "Label6";
             this.Label6.Size = new System.Drawing.Size(96, 17);
             this.Label6.TabIndex = 31;
@@ -222,7 +222,7 @@
             this.dtpDatePublish.CustomFormat = "yyyy-MM-dd";
             this.dtpDatePublish.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDatePublish.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDatePublish.Location = new System.Drawing.Point(134, 116);
+            this.dtpDatePublish.Location = new System.Drawing.Point(162, 116);
             this.dtpDatePublish.Name = "dtpDatePublish";
             this.dtpDatePublish.Size = new System.Drawing.Size(170, 23);
             this.dtpDatePublish.TabIndex = 34;
@@ -238,7 +238,7 @@
             // txtAuthor
             // 
             this.txtAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAuthor.Location = new System.Drawing.Point(134, 90);
+            this.txtAuthor.Location = new System.Drawing.Point(162, 90);
             this.txtAuthor.Name = "txtAuthor";
             this.txtAuthor.Size = new System.Drawing.Size(239, 23);
             this.txtAuthor.TabIndex = 32;
@@ -247,7 +247,7 @@
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label10.Location = new System.Drawing.Point(478, 43);
+            this.Label10.Location = new System.Drawing.Point(439, 41);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(73, 17);
             this.Label10.TabIndex = 27;
@@ -256,7 +256,7 @@
             // txtDesc
             // 
             this.txtDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDesc.Location = new System.Drawing.Point(134, 64);
+            this.txtDesc.Location = new System.Drawing.Point(162, 64);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(239, 23);
             this.txtDesc.TabIndex = 30;
@@ -265,7 +265,7 @@
             // 
             this.Label7.AutoSize = true;
             this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label7.Location = new System.Drawing.Point(476, 15);
+            this.Label7.Location = new System.Drawing.Point(439, 15);
             this.Label7.Name = "Label7";
             this.Label7.Size = new System.Drawing.Size(75, 17);
             this.Label7.TabIndex = 26;
@@ -275,7 +275,7 @@
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(68, 95);
+            this.Label5.Location = new System.Drawing.Point(21, 93);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(58, 17);
             this.Label5.TabIndex = 24;
@@ -284,7 +284,7 @@
             // txtTitle
             // 
             this.txtTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTitle.Location = new System.Drawing.Point(134, 38);
+            this.txtTitle.Location = new System.Drawing.Point(162, 38);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(239, 23);
             this.txtTitle.TabIndex = 29;
@@ -293,7 +293,7 @@
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(39, 69);
+            this.Label4.Location = new System.Drawing.Point(21, 68);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(87, 17);
             this.Label4.TabIndex = 23;
@@ -303,7 +303,7 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(83, 41);
+            this.Label2.Location = new System.Drawing.Point(21, 41);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(43, 17);
             this.Label2.TabIndex = 22;
@@ -312,7 +312,7 @@
             // txtAccessionNo
             // 
             this.txtAccessionNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAccessionNo.Location = new System.Drawing.Point(134, 12);
+            this.txtAccessionNo.Location = new System.Drawing.Point(162, 12);
             this.txtAccessionNo.Name = "txtAccessionNo";
             this.txtAccessionNo.Size = new System.Drawing.Size(239, 23);
             this.txtAccessionNo.TabIndex = 28;
