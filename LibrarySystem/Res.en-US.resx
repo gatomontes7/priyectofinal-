@@ -177,6 +177,12 @@
   <data name="colprice" xml:space="preserve">
     <value>Price</value>
   </data>
+  <data name="colremark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="colstate" xml:space="preserve">
+    <value>Status</value>
+  </data>
   <data name="frmbooks" xml:space="preserve">
     <value>Books</value>
   </data>
@@ -387,6 +393,9 @@
   <data name="subborowers" xml:space="preserve">
     <value>Manage Borowers</value>
   </data>
+  <data name="subenglis" xml:space="preserve">
+    <value>English</value>
+  </data>
   <data name="subfile" xml:space="preserve">
     <value>File</value>
   </data>
@@ -404,6 +413,9 @@
   </data>
   <data name="subreturnedbooks" xml:space="preserve">
     <value>Returned Books</value>
+  </data>
+  <data name="subspanish" xml:space="preserve">
+    <value>Spanish</value>
   </data>
   <data name="subunreturnbooks" xml:space="preserve">
     <value>Unreturn Books</value>

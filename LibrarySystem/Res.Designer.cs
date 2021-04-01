@@ -241,6 +241,24 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Observacion.
+        /// </summary>
+        internal static string colremark {
+            get {
+                return ResourceManager.GetString("colremark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Estado.
+        /// </summary>
+        internal static string colstate {
+            get {
+                return ResourceManager.GetString("colstate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Iniciar Sesion.
         /// </summary>
         internal static string frm_login {
@@ -880,6 +898,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Ingles.
+        /// </summary>
+        internal static string subenglis {
+            get {
+                return ResourceManager.GetString("subenglis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Archivo.
         /// </summary>
         internal static string subfile {
@@ -930,6 +957,15 @@ namespace LibrarySystem {
         internal static string subreturnedbooks {
             get {
                 return ResourceManager.GetString("subreturnedbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Español.
+        /// </summary>
+        internal static string subspanish {
+            get {
+                return ResourceManager.GetString("subspanish", resourceCulture);
             }
         }
         
