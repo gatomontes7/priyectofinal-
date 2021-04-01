@@ -232,6 +232,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Precio.
+        /// </summary>
+        internal static string colprice {
+            get {
+                return ResourceManager.GetString("colprice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Iniciar Sesion.
         /// </summary>
         internal static string frm_login {

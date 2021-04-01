@@ -174,6 +174,9 @@
   <data name="coldescription" xml:space="preserve">
     <value>Descripcion</value>
   </data>
+  <data name="colprice" xml:space="preserve">
+    <value>Precio</value>
+  </data>
   <data name="frmbooks" xml:space="preserve">
     <value>Libros</value>
   </data>
