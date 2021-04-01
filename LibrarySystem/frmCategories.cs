@@ -26,24 +26,6 @@ namespace LibrarySystem
         private void frmCategories_Load(object sender, EventArgs e)
         {
             btnnew_Click(sender, e);
-            GetText();
-        }
-
-        private void GetText()
-        {
-            if (Properties.Settings.Default.lenguaje == "en-US")
-            {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
-            }
-
-            this.Text = Res.frmcategories;
-            Label2.Text = Res.lbcategory;
-            Label4.Text = Res.lbdeweydecimal;
-            Label3.Text = Res.lbsearch;
-            btnsave.Text = Res.btnsave;
-            btndelete.Text = Res.btndelete;
-            btnnew.Text = Res.btnclear;
-            btnclose.Text = Res.btnclose;
         }
 
         private void btnnew_Click(object sender, EventArgs e)

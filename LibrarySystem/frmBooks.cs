@@ -43,31 +43,6 @@ namespace LibrarySystem
         private void frmBooks_Load(object sender, EventArgs e)
         {
             btnNew_Click(sender, e);
-            GetText();
-        }
-        private void GetText()
-        {
-            if (Properties.Settings.Default.lenguaje == "en-US")
-            {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
-            }
-
-            this.Text = Res.frmbooks;
-            Label1.Text = Res.lbaccession;
-            Label2.Text = Res.lbtitle;
-            Label4.Text = Res.lbdescripcion;
-            Label5.Text = Res.lbauthor;
-            Label6.Text = Res.lbdate;
-            Label7.Text = Res.lbpublisher;
-            Label10.Text = Res.lbcategory;
-            Label12.Text = Res.lbdeweydecimal;
-            Label9.Text = Res.lbtypebooks;
-            Label11.Text = Res.lbsearch;
-            btnSave.Text = Res.btnsave;
-            btnUpdate.Text = Res.btnupdate;
-            btnDelete.Text = Res.btndelete;
-            btnNew.Text = Res.btnclear;
-            btnClose.Text = Res.btnclose;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
