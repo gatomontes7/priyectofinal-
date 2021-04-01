@@ -826,7 +826,7 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Expediente.
+        ///   Busca una cadena traducida similar a Archivo.
         /// </summary>
         internal static string subfile {
             get {
