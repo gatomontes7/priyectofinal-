@@ -530,3 +530,7 @@ C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\L
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.exe
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.pdb
 C:\Users\Sammy\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\en-US\LibrarySystem.resources.dll
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.en-US.resources
+C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\en-US\LibrarySystem.resources.dll

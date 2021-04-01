@@ -53,6 +53,10 @@ namespace LibrarySystem
             GetText();
         }
 
+        internal void cargar()
+        {
+            GetText();
+        }
         private void GetText()
         {
             if(Properties.Settings.Default.lenguaje == "en-US")
@@ -63,6 +67,8 @@ namespace LibrarySystem
             this.Text = Res.frm_login;
             PasswordLabel.Text = Res.lbcontrasena;
             UsernameLabel.Text = Res.lbusuario;
+            OK.Text = Res.btnok;
+            Cancel.Text = Res.btncancelar;
         }
     }
 }

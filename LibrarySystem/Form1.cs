@@ -216,8 +216,14 @@ namespace LibrarySystem
 
         private void spanishToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "You are sure you want to change the Language to Spanish";
-            string caption = "Confirmation";
+            string message = "Estás seguro de que quieres cambiar el idioma a inglés.";
+            string caption = "Confirmacion";
+
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                message = "You are sure you want to change the Language to English";
+                caption = "Confirmation";
+            }
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result;
 
@@ -228,16 +234,25 @@ namespace LibrarySystem
                 Properties.Settings.Default.Save();
                 
                 frm_login frm = new frm_login();
-                this.Close();
+                         
                 frm.Show();
+                frm.cargar();
+                this.Close();
             }
 
         }
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
-        {      
-            string message = "You are sure you want to change the Language to English";
-            string caption = "Confirmation";
+        {
+            string message = "Estás seguro de que quieres cambiar el idioma a inglés.";
+            string caption = "Confirmacion";
+
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                message = "You are sure you want to change the Language to English";
+                caption = "Confirmation";
+            }
+
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result;
 
@@ -247,9 +262,15 @@ namespace LibrarySystem
                 Properties.Settings.Default.lenguaje = "en-US";
                 Properties.Settings.Default.Save();
                 frm_login frm = new frm_login();
-                this.Close();
                 frm.Show();
+                frm.cargar();
+                this.Close();
             }
+        }
+
+        private void FileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
