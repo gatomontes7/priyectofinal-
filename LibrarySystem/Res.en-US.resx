@@ -348,6 +348,9 @@
   <data name="lbusuario" xml:space="preserve">
     <value>Username</value>
   </data>
+  <data name="lbyessection" xml:space="preserve">
+    <value>Year/Section:</value>
+  </data>
   <data name="rddailyreport" xml:space="preserve">
     <value>Daily Report</value>
   </data>
