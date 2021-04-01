@@ -28,7 +28,21 @@ namespace LibrarySystem
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
+            GetText();
+        }
 
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+
+            this.Text = Res.frm_login;
+            UsernameLabel.Text = Res.lbusername;
+            PasswordLabel.Text = Res.lbpassword;
+            OK.Text = Res.btnok;
+            Cancel.Text = Res.btncancelar;
         }
 
         private void OK_Click(object sender, EventArgs e)

@@ -273,9 +273,6 @@
   <data name="lbdescripcion" xml:space="preserve">
     <value>Description:</value>
   </data>
-  <data name="lbdescription" xml:space="preserve">
-    <value>Description:</value>
-  </data>
   <data name="lbdeweydecimal" xml:space="preserve">
     <value>Dewey Decimal:</value>
   </data>
