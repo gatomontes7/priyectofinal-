@@ -279,9 +279,6 @@
   <data name="lbdate" xml:space="preserve">
     <value>Date Publish:</value>
   </data>
-  <data name="lbdescripcion" xml:space="preserve">
-    <value>Description:</value>
-  </data>
   <data name="lbdescription" xml:space="preserve">
     <value>Description:</value>
   </data>
