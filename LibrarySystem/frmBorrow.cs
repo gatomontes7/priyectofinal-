@@ -70,11 +70,20 @@ namespace LibrarySystem
             Label1.Text = Res.lbtitle;
             Label12.Text = Res.lbdate;
             Label3.Text = Res.lbpublisher;
+            Label5.Text = Res.lbauthor;
             Label6.Text = Res.lbtypebooks;
             Label17.Text = Res.lbname;
             Label13.Text = Res.lbyessection;
             Label7.Text = Res.lbborrowerid;
-            Label15.Text = Res.lbborrowerid;
+            Label15.Text = Res.lbpurpose;
+            btn_Bsave.Text = Res.btnrorrow;
+            btnNew.Text = Res.btnclear;
+            btnClose.Text = Res.btnclose;
+            GroupBox1.Text = Res.groupbooksdetails;
+            grp_Bgroup.Text = Res.frmborrowers;
+            TabPage3.Text = "Detalle";
+            TabPage4.Text = "libros prestados";
+
         }
 
 

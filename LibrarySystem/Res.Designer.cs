@@ -448,7 +448,7 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Identificación del prestatario:.
+        ///   Busca una cadena traducida similar a Id del prestatario:.
         /// </summary>
         internal static string lbborrowerid {
             get {
@@ -511,7 +511,7 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fecha de publicación:.
+        ///   Busca una cadena traducida similar a Fecha publicación:.
         /// </summary>
         internal static string lbdate {
             get {

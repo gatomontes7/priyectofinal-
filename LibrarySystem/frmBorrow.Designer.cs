@@ -165,11 +165,12 @@
             // lblAccessionNumBorrow
             // 
             this.lblAccessionNumBorrow.AutoSize = true;
-            this.lblAccessionNumBorrow.Location = new System.Drawing.Point(15, 52);
+            this.lblAccessionNumBorrow.Location = new System.Drawing.Point(6, 53);
             this.lblAccessionNumBorrow.Name = "lblAccessionNumBorrow";
             this.lblAccessionNumBorrow.Size = new System.Drawing.Size(97, 17);
             this.lblAccessionNumBorrow.TabIndex = 16;
             this.lblAccessionNumBorrow.Text = "Accession No. :";
+            this.lblAccessionNumBorrow.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtbooktype
             // 
@@ -207,11 +208,12 @@
             // 
             this.Label6.AutoSize = true;
             this.Label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label6.Location = new System.Drawing.Point(14, 213);
+            this.Label6.Location = new System.Drawing.Point(6, 213);
             this.Label6.Name = "Label6";
             this.Label6.Size = new System.Drawing.Size(97, 17);
             this.Label6.TabIndex = 11;
             this.Label6.Text = "Type of Books :";
+            this.Label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtAuthor
             // 
@@ -225,41 +227,45 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(44, 182);
+            this.Label3.Location = new System.Drawing.Point(6, 182);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(68, 17);
             this.Label3.TabIndex = 11;
             this.Label3.Text = "Publisher :";
+            this.Label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Label12
             // 
             this.Label12.AutoSize = true;
             this.Label12.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label12.Location = new System.Drawing.Point(25, 151);
+            this.Label12.Location = new System.Drawing.Point(6, 154);
             this.Label12.Name = "Label12";
             this.Label12.Size = new System.Drawing.Size(87, 17);
             this.Label12.TabIndex = 11;
             this.Label12.Text = "Date Publish :";
+            this.Label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(73, 84);
+            this.Label1.Location = new System.Drawing.Point(6, 87);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(39, 17);
             this.Label1.TabIndex = 4;
             this.Label1.Text = "Title :";
+            this.Label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Label5
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(58, 120);
+            this.Label5.Location = new System.Drawing.Point(6, 120);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(54, 17);
             this.Label5.TabIndex = 8;
             this.Label5.Text = "Author :";
+            this.Label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // grp_Bgroup
             // 
@@ -284,9 +290,9 @@
             // 
             this.txtBorrowerId.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtBorrowerId.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.txtBorrowerId.Location = new System.Drawing.Point(112, 60);
+            this.txtBorrowerId.Location = new System.Drawing.Point(125, 60);
             this.txtBorrowerId.Name = "txtBorrowerId";
-            this.txtBorrowerId.Size = new System.Drawing.Size(246, 25);
+            this.txtBorrowerId.Size = new System.Drawing.Size(233, 25);
             this.txtBorrowerId.TabIndex = 24;
             this.txtBorrowerId.TextChanged += new System.EventHandler(this.txtBorrowerId_TextChanged);
             // 
@@ -297,9 +303,9 @@
             "Overnight",
             "Research",
             "Photocopy"});
-            this.cboPurpose.Location = new System.Drawing.Point(112, 153);
+            this.cboPurpose.Location = new System.Drawing.Point(125, 153);
             this.cboPurpose.Name = "cboPurpose";
-            this.cboPurpose.Size = new System.Drawing.Size(246, 25);
+            this.cboPurpose.Size = new System.Drawing.Size(233, 25);
             this.cboPurpose.TabIndex = 22;
             this.cboPurpose.Text = "Select";
             // 
@@ -313,24 +319,24 @@
             // txtCourse
             // 
             this.txtCourse.Enabled = false;
-            this.txtCourse.Location = new System.Drawing.Point(112, 122);
+            this.txtCourse.Location = new System.Drawing.Point(125, 122);
             this.txtCourse.Name = "txtCourse";
-            this.txtCourse.Size = new System.Drawing.Size(246, 25);
+            this.txtCourse.Size = new System.Drawing.Size(233, 25);
             this.txtCourse.TabIndex = 21;
             // 
             // txtName
             // 
             this.txtName.Enabled = false;
-            this.txtName.Location = new System.Drawing.Point(112, 91);
+            this.txtName.Location = new System.Drawing.Point(125, 91);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(246, 25);
+            this.txtName.Size = new System.Drawing.Size(233, 25);
             this.txtName.TabIndex = 20;
             // 
             // Label15
             // 
             this.Label15.AutoSize = true;
             this.Label15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label15.Location = new System.Drawing.Point(43, 156);
+            this.Label15.Location = new System.Drawing.Point(6, 156);
             this.Label15.Name = "Label15";
             this.Label15.Size = new System.Drawing.Size(63, 17);
             this.Label15.TabIndex = 18;
@@ -340,7 +346,7 @@
             // 
             this.Label13.AutoSize = true;
             this.Label13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label13.Location = new System.Drawing.Point(18, 125);
+            this.Label13.Location = new System.Drawing.Point(6, 125);
             this.Label13.Name = "Label13";
             this.Label13.Size = new System.Drawing.Size(87, 17);
             this.Label13.TabIndex = 16;
@@ -350,7 +356,7 @@
             // 
             this.Label7.AutoSize = true;
             this.Label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label7.Location = new System.Drawing.Point(22, 63);
+            this.Label7.Location = new System.Drawing.Point(6, 63);
             this.Label7.Name = "Label7";
             this.Label7.Size = new System.Drawing.Size(84, 17);
             this.Label7.TabIndex = 10;
@@ -360,7 +366,7 @@
             // 
             this.Label17.AutoSize = true;
             this.Label17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label17.Location = new System.Drawing.Point(56, 94);
+            this.Label17.Location = new System.Drawing.Point(6, 94);
             this.Label17.Name = "Label17";
             this.Label17.Size = new System.Drawing.Size(50, 17);
             this.Label17.TabIndex = 14;

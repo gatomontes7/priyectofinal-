@@ -247,7 +247,7 @@
     <value>Titulo del libro:</value>
   </data>
   <data name="lbborrowerid" xml:space="preserve">
-    <value>Identificación del prestatario:</value>
+    <value>Id del prestatario:</value>
   </data>
   <data name="lbborrowername" xml:space="preserve">
     <value>Nombre del prestatario:</value>
@@ -268,7 +268,7 @@
     <value>Curso / Año:</value>
   </data>
   <data name="lbdate" xml:space="preserve">
-    <value>Fecha de publicación:</value>
+    <value>Fecha publicación:</value>
   </data>
   <data name="lbdescripcion" xml:space="preserve">
     <value>Descripción:</value>
