@@ -55,7 +55,28 @@ namespace LibrarySystem
         private void frmBorrow_Load(object sender, EventArgs e)
         {
             btnNew_Click(sender, e);
+            GetText();
         }
+
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+
+            this.Text = Res.frmborrowers;
+            lblAccessionNumBorrow.Text = Res.lbaccession;
+            Label1.Text = Res.lbtitle;
+            Label12.Text = Res.lbdate;
+            Label3.Text = Res.lbpublisher;
+            Label6.Text = Res.lbtypebooks;
+            Label7.Text = Res.lbborrowerid;
+            Label17.Text = Res.lbname;
+            Label13.Text = Res.lbborrowerid;
+            Label7.Text = Res.lbborrowerid;
+        }
+
 
         private void btnNew_Click(object sender, EventArgs e)
         {

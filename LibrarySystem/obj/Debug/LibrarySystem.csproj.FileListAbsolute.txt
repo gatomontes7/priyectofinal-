@@ -534,3 +534,4 @@ C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\bin\Debug\en-US\Libra
 C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.resources
 C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.en-US.resources
 C:\Users\Gabriel\source\repos\priyectofinal-\LibrarySystem\obj\Debug\en-US\LibrarySystem.resources.dll
+C:\Users\Farith Tapia\source\repos\gatomontes7\priyectofinal-\LibrarySystem\obj\Debug\LibrarySystem.Res.resources
