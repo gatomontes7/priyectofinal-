@@ -63,7 +63,10 @@ namespace LibrarySystem
             {
                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
             }
-            
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
             this.Text = Res.frm_login;
             PasswordLabel.Text = Res.lbcontrasena;
             UsernameLabel.Text = Res.lbusuario;
