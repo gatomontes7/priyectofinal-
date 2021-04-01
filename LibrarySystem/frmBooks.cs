@@ -43,6 +43,24 @@ namespace LibrarySystem
         private void frmBooks_Load(object sender, EventArgs e)
         {
             btnNew_Click(sender, e);
+            GetText();
+        }
+
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
+            this.Text = Res.frm_login;
+            //PasswordLabel.Text = Res.lbcontrasena;
+            //UsernameLabel.Text = Res.lbusuario;
+            //OK.Text = Res.btnok;
+            //Cancel.Text = Res.btncancelar;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
