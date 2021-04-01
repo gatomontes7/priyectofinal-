@@ -101,7 +101,11 @@ namespace LibrarySystem
             btnBorrow.Text = Res.btnrorrow;
             button3.Text = Res.btnreturn;
             button2.Text = Res.btnoverdue;
-            button4.Text = Res.btnreturn;
+            button4.Text = Res.sublogout;
+            languageToolStripMenuItem.Text = Res.sublenguaje;
+            logoutToolStripMenuItem.Text = Res.sublogout;
+            spanishToolStripMenuItem.Text = Res.subspanish;
+            englishToolStripMenuItem.Text = Res.subenglis;
         }
 
         private void ts_books_Click(object sender, EventArgs e)
