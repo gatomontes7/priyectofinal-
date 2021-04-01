@@ -74,12 +74,10 @@ namespace LibrarySystem
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            //disabled_menu();
+            GetText();
             sql = "SELECT `Fullname`, `User_name`, `UserRole`,`LogDate`, `LogMode` FROM `tbllogs` l, `tbluser` u WHERE l.`UserId`=u.`UserId`";
             reports(sql, "LogsReport");
-            timer1.Start();
-            GetText();
-        
+            timer1.Start(); 
         }
 
         private void GetText()
@@ -94,10 +92,16 @@ namespace LibrarySystem
             }
             this.Text = Res.frmprincipal;
             this.menuStrip1.Items[0].Text = Res.subfile;
-            //this.menuStrip1..Text = Res.lbcontrasena;
-            //UsernameLabel.Text = Res.lbusuario;
-            //OK.Text = Res.btnok;
-            //Cancel.Text = Res.btncancelar;
+            this.menuStrip1.Items[1].Text = Res.subfilecategori;
+            this.menuStrip1.Items[2].Text = Res.subbook;
+            this.menuStrip1.Items[3].Text = Res.subborowers;
+            this.menuStrip1.Items[4].Text = Res.subusers;
+            this.menuStrip1.Items[5].Text = Res.subreports;
+            this.menuStrip1.Items[6].Text = Res.subuserlogs;
+            btnBorrow.Text = Res.btnrorrow;
+            button3.Text = Res.btnreturn;
+            button2.Text = Res.btnoverdue;
+            button4.Text = Res.btnreturn;
         }
 
         private void ts_books_Click(object sender, EventArgs e)
