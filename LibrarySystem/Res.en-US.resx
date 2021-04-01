@@ -315,6 +315,9 @@
   <data name="lbpublisher" xml:space="preserve">
     <value>Publisher:</value>
   </data>
+  <data name="lbpurpose" xml:space="preserve">
+    <value>Purpose :</value>
+  </data>
   <data name="lbsearch" xml:space="preserve">
     <value>Search:</value>
   </data>

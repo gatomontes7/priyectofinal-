@@ -71,10 +71,10 @@ namespace LibrarySystem
             Label12.Text = Res.lbdate;
             Label3.Text = Res.lbpublisher;
             Label6.Text = Res.lbtypebooks;
-            Label7.Text = Res.lbborrowerid;
             Label17.Text = Res.lbname;
             Label13.Text = Res.lbyessection;
             Label7.Text = Res.lbborrowerid;
+            Label15.Text = Res.lbborrowerid;
         }
 
 

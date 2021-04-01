@@ -655,6 +655,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Propósito.
+        /// </summary>
+        internal static string lbpurpose {
+            get {
+                return ResourceManager.GetString("lbpurpose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Búsqueda:.
         /// </summary>
         internal static string lbsearch {
