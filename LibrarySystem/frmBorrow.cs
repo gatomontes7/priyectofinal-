@@ -73,7 +73,7 @@ namespace LibrarySystem
             Label6.Text = Res.lbtypebooks;
             Label7.Text = Res.lbborrowerid;
             Label17.Text = Res.lbname;
-            Label13.Text = Res.lbborrowerid;
+            Label13.Text = Res.lbyessection;
             Label7.Text = Res.lbborrowerid;
         }
 
