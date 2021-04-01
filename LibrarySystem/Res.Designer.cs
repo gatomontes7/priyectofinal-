@@ -61,7 +61,142 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Iniciar Sesion.
+        ///   Busca una cadena traducida similar a Cancel.
+        /// </summary>
+        internal static string btncancelar {
+            get {
+                return ResourceManager.GetString("btncancelar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Clear.
+        /// </summary>
+        internal static string btnclear {
+            get {
+                return ResourceManager.GetString("btnclear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Close.
+        /// </summary>
+        internal static string btnclose {
+            get {
+                return ResourceManager.GetString("btnclose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Delete.
+        /// </summary>
+        internal static string btndelete {
+            get {
+                return ResourceManager.GetString("btndelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a List of Books.
+        /// </summary>
+        internal static string btnlistbooks {
+            get {
+                return ResourceManager.GetString("btnlistbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Logout.
+        /// </summary>
+        internal static string btnlogout {
+            get {
+                return ResourceManager.GetString("btnlogout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a New.
+        /// </summary>
+        internal static string btnnew {
+            get {
+                return ResourceManager.GetString("btnnew", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a OK.
+        /// </summary>
+        internal static string btnok {
+            get {
+                return ResourceManager.GetString("btnok", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Over Due.
+        /// </summary>
+        internal static string btnoverdue {
+            get {
+                return ResourceManager.GetString("btnoverdue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Preview.
+        /// </summary>
+        internal static string btnpreview {
+            get {
+                return ResourceManager.GetString("btnpreview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Return.
+        /// </summary>
+        internal static string btnreturn {
+            get {
+                return ResourceManager.GetString("btnreturn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Borrow.
+        /// </summary>
+        internal static string btnrorrow {
+            get {
+                return ResourceManager.GetString("btnrorrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Save.
+        /// </summary>
+        internal static string btnsave {
+            get {
+                return ResourceManager.GetString("btnsave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Total No. of Books.
+        /// </summary>
+        internal static string btntotalnobooks {
+            get {
+                return ResourceManager.GetString("btntotalnobooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Update.
+        /// </summary>
+        internal static string btnupdate {
+            get {
+                return ResourceManager.GetString("btnupdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Log in.
         /// </summary>
         internal static string frm_login {
             get {
@@ -70,7 +205,295 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Contraseña.
+        ///   Busca una cadena traducida similar a Books.
+        /// </summary>
+        internal static string frmbooks {
+            get {
+                return ResourceManager.GetString("frmbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Borow Books.
+        /// </summary>
+        internal static string frmborowbooks {
+            get {
+                return ResourceManager.GetString("frmborowbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Borrower.
+        /// </summary>
+        internal static string frmborrowers {
+            get {
+                return ResourceManager.GetString("frmborrowers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Book Categories.
+        /// </summary>
+        internal static string frmcategories {
+            get {
+                return ResourceManager.GetString("frmcategories", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a User Logs.
+        /// </summary>
+        internal static string frmlogs {
+            get {
+                return ResourceManager.GetString("frmlogs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Payment.
+        /// </summary>
+        internal static string frmoverdue {
+            get {
+                return ResourceManager.GetString("frmoverdue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Library System.
+        /// </summary>
+        internal static string frmprincipal {
+            get {
+                return ResourceManager.GetString("frmprincipal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Inventory Reports.
+        /// </summary>
+        internal static string frmreport {
+            get {
+                return ResourceManager.GetString("frmreport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Returned.
+        /// </summary>
+        internal static string frmreturned {
+            get {
+                return ResourceManager.GetString("frmreturned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Manage Users.
+        /// </summary>
+        internal static string frmuser {
+            get {
+                return ResourceManager.GetString("frmuser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Books.
+        /// </summary>
+        internal static string groupbooks {
+            get {
+                return ResourceManager.GetString("groupbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Book`s Details.
+        /// </summary>
+        internal static string groupbooksdetails {
+            get {
+                return ResourceManager.GetString("groupbooksdetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Date Filter.
+        /// </summary>
+        internal static string groupdatefilter {
+            get {
+                return ResourceManager.GetString("groupdatefilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a View Details of Unreturn Books.
+        /// </summary>
+        internal static string groupdetails {
+            get {
+                return ResourceManager.GetString("groupdetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Payment Per Hours.
+        /// </summary>
+        internal static string grouppaymenthours {
+            get {
+                return ResourceManager.GetString("grouppaymenthours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Payments.
+        /// </summary>
+        internal static string grouppayments {
+            get {
+                return ResourceManager.GetString("grouppayments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Borrowed.
+        /// </summary>
+        internal static string itemborrowed {
+            get {
+                return ResourceManager.GetString("itemborrowed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fiction.
+        /// </summary>
+        internal static string itemfiction {
+            get {
+                return ResourceManager.GetString("itemfiction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Non-Fiction.
+        /// </summary>
+        internal static string itemnonfiction {
+            get {
+                return ResourceManager.GetString("itemnonfiction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Overdue.
+        /// </summary>
+        internal static string itemoverdue {
+            get {
+                return ResourceManager.GetString("itemoverdue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Returned.
+        /// </summary>
+        internal static string itemreturned {
+            get {
+                return ResourceManager.GetString("itemreturned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Unknown.
+        /// </summary>
+        internal static string itemunknown {
+            get {
+                return ResourceManager.GetString("itemunknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Accession No:.
+        /// </summary>
+        internal static string lbaccession {
+            get {
+                return ResourceManager.GetString("lbaccession", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Adress:.
+        /// </summary>
+        internal static string lbadress {
+            get {
+                return ResourceManager.GetString("lbadress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Amount:.
+        /// </summary>
+        internal static string lbamount {
+            get {
+                return ResourceManager.GetString("lbamount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Author:.
+        /// </summary>
+        internal static string lbauthor {
+            get {
+                return ResourceManager.GetString("lbauthor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Book Title:.
+        /// </summary>
+        internal static string lbbooktitle {
+            get {
+                return ResourceManager.GetString("lbbooktitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Borrower Id:.
+        /// </summary>
+        internal static string lbborrowerid {
+            get {
+                return ResourceManager.GetString("lbborrowerid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Borrower Name:.
+        /// </summary>
+        internal static string lbborrowername {
+            get {
+                return ResourceManager.GetString("lbborrowername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Category:.
+        /// </summary>
+        internal static string lbcategory {
+            get {
+                return ResourceManager.GetString("lbcategory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change:.
+        /// </summary>
+        internal static string lbchange {
+            get {
+                return ResourceManager.GetString("lbchange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Contact No.:.
+        /// </summary>
+        internal static string lbcontactno {
+            get {
+                return ResourceManager.GetString("lbcontactno", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Password.
         /// </summary>
         internal static string lbcontrasena {
             get {
@@ -79,11 +502,380 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Usuario.
+        ///   Busca una cadena traducida similar a Course/Year:.
+        /// </summary>
+        internal static string lbcourse {
+            get {
+                return ResourceManager.GetString("lbcourse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Date Publish:.
+        /// </summary>
+        internal static string lbdate {
+            get {
+                return ResourceManager.GetString("lbdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Description:.
+        /// </summary>
+        internal static string lbdescripcion {
+            get {
+                return ResourceManager.GetString("lbdescripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Description:.
+        /// </summary>
+        internal static string lbdescription {
+            get {
+                return ResourceManager.GetString("lbdescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Dewey Decimal:.
+        /// </summary>
+        internal static string lbdeweydecimal {
+            get {
+                return ResourceManager.GetString("lbdeweydecimal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a End Date.
+        /// </summary>
+        internal static string lbenddate {
+            get {
+                return ResourceManager.GetString("lbenddate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a First Name:.
+        /// </summary>
+        internal static string lbfirstname {
+            get {
+                return ResourceManager.GetString("lbfirstname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a hour.
+        /// </summary>
+        internal static string lbhour {
+            get {
+                return ResourceManager.GetString("lbhour", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a hr(s).
+        /// </summary>
+        internal static string lbhr {
+            get {
+                return ResourceManager.GetString("lbhr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Last Name:.
+        /// </summary>
+        internal static string lblastname {
+            get {
+                return ResourceManager.GetString("lblastname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Middle Name:.
+        /// </summary>
+        internal static string lbmiddlename {
+            get {
+                return ResourceManager.GetString("lbmiddlename", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Name:.
+        /// </summary>
+        internal static string lbname {
+            get {
+                return ResourceManager.GetString("lbname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Overdue Time:.
+        /// </summary>
+        internal static string lboverduetme {
+            get {
+                return ResourceManager.GetString("lboverduetme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Password:.
+        /// </summary>
+        internal static string lbpassword {
+            get {
+                return ResourceManager.GetString("lbpassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a View Details of unreturned books with Penalties.
+        /// </summary>
+        internal static string lbpaymentgroup {
+            get {
+                return ResourceManager.GetString("lbpaymentgroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a per.
+        /// </summary>
+        internal static string lbper {
+            get {
+                return ResourceManager.GetString("lbper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Publisher:.
+        /// </summary>
+        internal static string lbpublisher {
+            get {
+                return ResourceManager.GetString("lbpublisher", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Search:.
+        /// </summary>
+        internal static string lbsearch {
+            get {
+                return ResourceManager.GetString("lbsearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sex:.
+        /// </summary>
+        internal static string lbsexo {
+            get {
+                return ResourceManager.GetString("lbsexo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Start Date.
+        /// </summary>
+        internal static string lbstartdate {
+            get {
+                return ResourceManager.GetString("lbstartdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Status:.
+        /// </summary>
+        internal static string lbstatus {
+            get {
+                return ResourceManager.GetString("lbstatus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tendered Amount:.
+        /// </summary>
+        internal static string lbtendererd {
+            get {
+                return ResourceManager.GetString("lbtendererd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Title:.
+        /// </summary>
+        internal static string lbtitle {
+            get {
+                return ResourceManager.GetString("lbtitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Total Payments:.
+        /// </summary>
+        internal static string lbtotalpayments {
+            get {
+                return ResourceManager.GetString("lbtotalpayments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Type:.
+        /// </summary>
+        internal static string lbtype {
+            get {
+                return ResourceManager.GetString("lbtype", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Type of Books:.
+        /// </summary>
+        internal static string lbtypebooks {
+            get {
+                return ResourceManager.GetString("lbtypebooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Username:.
+        /// </summary>
+        internal static string lbusername {
+            get {
+                return ResourceManager.GetString("lbusername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Username.
         /// </summary>
         internal static string lbusuario {
             get {
                 return ResourceManager.GetString("lbusuario", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Daily Report.
+        /// </summary>
+        internal static string rddailyreport {
+            get {
+                return ResourceManager.GetString("rddailyreport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Female.
+        /// </summary>
+        internal static string rdfemale {
+            get {
+                return ResourceManager.GetString("rdfemale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Male.
+        /// </summary>
+        internal static string rdmale {
+            get {
+                return ResourceManager.GetString("rdmale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Monthly Report.
+        /// </summary>
+        internal static string rdmonthlyreport {
+            get {
+                return ResourceManager.GetString("rdmonthlyreport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Weekly Report.
+        /// </summary>
+        internal static string rdweeklyreport {
+            get {
+                return ResourceManager.GetString("rdweeklyreport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Manage Books.
+        /// </summary>
+        internal static string subbook {
+            get {
+                return ResourceManager.GetString("subbook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Manage Borowers.
+        /// </summary>
+        internal static string subborowers {
+            get {
+                return ResourceManager.GetString("subborowers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a File.
+        /// </summary>
+        internal static string subfile {
+            get {
+                return ResourceManager.GetString("subfile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Manage Categories.
+        /// </summary>
+        internal static string subfilecategori {
+            get {
+                return ResourceManager.GetString("subfilecategori", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Reports.
+        /// </summary>
+        internal static string subreports {
+            get {
+                return ResourceManager.GetString("subreports", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Returned Books.
+        /// </summary>
+        internal static string subreturnedbooks {
+            get {
+                return ResourceManager.GetString("subreturnedbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Unreturn Books.
+        /// </summary>
+        internal static string subunreturnbooks {
+            get {
+                return ResourceManager.GetString("subunreturnbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a User Logs.
+        /// </summary>
+        internal static string subuserlogs {
+            get {
+                return ResourceManager.GetString("subuserlogs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Manage Users.
+        /// </summary>
+        internal static string subusers {
+            get {
+                return ResourceManager.GetString("subusers", resourceCulture);
             }
         }
     }

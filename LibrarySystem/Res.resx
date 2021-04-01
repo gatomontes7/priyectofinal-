@@ -117,13 +117,277 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btncancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnclear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnclose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btndelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnlistbooks" xml:space="preserve">
+    <value>List of Books</value>
+  </data>
+  <data name="btnlogout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="btnnew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="btnok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnoverdue" xml:space="preserve">
+    <value>Over Due</value>
+  </data>
+  <data name="btnpreview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="btnreturn" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="btnrorrow" xml:space="preserve">
+    <value>Borrow</value>
+  </data>
+  <data name="btnsave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btntotalnobooks" xml:space="preserve">
+    <value>Total No. of Books</value>
+  </data>
+  <data name="btnupdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="frmbooks" xml:space="preserve">
+    <value>Books</value>
+  </data>
+  <data name="frmborowbooks" xml:space="preserve">
+    <value>Borow Books</value>
+  </data>
+  <data name="frmborrowers" xml:space="preserve">
+    <value>Borrower</value>
+  </data>
+  <data name="frmcategories" xml:space="preserve">
+    <value>Book Categories</value>
+  </data>
+  <data name="frmlogs" xml:space="preserve">
+    <value>User Logs</value>
+  </data>
+  <data name="frmoverdue" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="frmprincipal" xml:space="preserve">
+    <value>Library System</value>
+  </data>
+  <data name="frmreport" xml:space="preserve">
+    <value>Inventory Reports</value>
+  </data>
+  <data name="frmreturned" xml:space="preserve">
+    <value>Returned</value>
+  </data>
+  <data name="frmuser" xml:space="preserve">
+    <value>Manage Users</value>
+  </data>
   <data name="frm_login" xml:space="preserve">
-    <value>Iniciar Sesion</value>
+    <value>Log in</value>
+  </data>
+  <data name="groupbooks" xml:space="preserve">
+    <value>Books</value>
+  </data>
+  <data name="groupbooksdetails" xml:space="preserve">
+    <value>Book`s Details</value>
+  </data>
+  <data name="groupdatefilter" xml:space="preserve">
+    <value>Date Filter</value>
+  </data>
+  <data name="groupdetails" xml:space="preserve">
+    <value>View Details of Unreturn Books</value>
+  </data>
+  <data name="grouppaymenthours" xml:space="preserve">
+    <value>Payment Per Hours</value>
+  </data>
+  <data name="grouppayments" xml:space="preserve">
+    <value>Payments</value>
+  </data>
+  <data name="itemborrowed" xml:space="preserve">
+    <value>Borrowed</value>
+  </data>
+  <data name="itemfiction" xml:space="preserve">
+    <value>Fiction</value>
+  </data>
+  <data name="itemnonfiction" xml:space="preserve">
+    <value>Non-Fiction</value>
+  </data>
+  <data name="itemoverdue" xml:space="preserve">
+    <value>Overdue</value>
+  </data>
+  <data name="itemreturned" xml:space="preserve">
+    <value>Returned</value>
+  </data>
+  <data name="itemunknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="lbaccession" xml:space="preserve">
+    <value>Accession No:</value>
+  </data>
+  <data name="lbadress" xml:space="preserve">
+    <value>Adress:</value>
+  </data>
+  <data name="lbamount" xml:space="preserve">
+    <value>Amount:</value>
+  </data>
+  <data name="lbauthor" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="lbbooktitle" xml:space="preserve">
+    <value>Book Title:</value>
+  </data>
+  <data name="lbborrowerid" xml:space="preserve">
+    <value>Borrower Id:</value>
+  </data>
+  <data name="lbborrowername" xml:space="preserve">
+    <value>Borrower Name:</value>
+  </data>
+  <data name="lbcategory" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="lbchange" xml:space="preserve">
+    <value>Change:</value>
+  </data>
+  <data name="lbcontactno" xml:space="preserve">
+    <value>Contact No.:</value>
   </data>
   <data name="lbcontrasena" xml:space="preserve">
-    <value>Contraseña</value>
+    <value>Password</value>
+  </data>
+  <data name="lbcourse" xml:space="preserve">
+    <value>Course/Year:</value>
+  </data>
+  <data name="lbdate" xml:space="preserve">
+    <value>Date Publish:</value>
+  </data>
+  <data name="lbdescripcion" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lbdescription" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lbdeweydecimal" xml:space="preserve">
+    <value>Dewey Decimal:</value>
+  </data>
+  <data name="lbenddate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lbfirstname" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="lbhour" xml:space="preserve">
+    <value>hour</value>
+  </data>
+  <data name="lbhr" xml:space="preserve">
+    <value>hr(s)</value>
+  </data>
+  <data name="lblastname" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="lbmiddlename" xml:space="preserve">
+    <value>Middle Name:</value>
+  </data>
+  <data name="lbname" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lboverduetme" xml:space="preserve">
+    <value>Overdue Time:</value>
+  </data>
+  <data name="lbpassword" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lbpaymentgroup" xml:space="preserve">
+    <value>View Details of unreturned books with Penalties</value>
+  </data>
+  <data name="lbper" xml:space="preserve">
+    <value>per</value>
+  </data>
+  <data name="lbpublisher" xml:space="preserve">
+    <value>Publisher:</value>
+  </data>
+  <data name="lbsearch" xml:space="preserve">
+    <value>Search:</value>
+  </data>
+  <data name="lbsexo" xml:space="preserve">
+    <value>Sex:</value>
+  </data>
+  <data name="lbstartdate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lbstatus" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lbtendererd" xml:space="preserve">
+    <value>Tendered Amount:</value>
+  </data>
+  <data name="lbtitle" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="lbtotalpayments" xml:space="preserve">
+    <value>Total Payments:</value>
+  </data>
+  <data name="lbtype" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="lbtypebooks" xml:space="preserve">
+    <value>Type of Books:</value>
+  </data>
+  <data name="lbusername" xml:space="preserve">
+    <value>Username:</value>
   </data>
   <data name="lbusuario" xml:space="preserve">
-    <value>Usuario</value>
+    <value>Username</value>
+  </data>
+  <data name="rddailyreport" xml:space="preserve">
+    <value>Daily Report</value>
+  </data>
+  <data name="rdfemale" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="rdmale" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="rdmonthlyreport" xml:space="preserve">
+    <value>Monthly Report</value>
+  </data>
+  <data name="rdweeklyreport" xml:space="preserve">
+    <value>Weekly Report</value>
+  </data>
+  <data name="subbook" xml:space="preserve">
+    <value>Manage Books</value>
+  </data>
+  <data name="subborowers" xml:space="preserve">
+    <value>Manage Borowers</value>
+  </data>
+  <data name="subfile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="subfilecategori" xml:space="preserve">
+    <value>Manage Categories</value>
+  </data>
+  <data name="subreports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="subreturnedbooks" xml:space="preserve">
+    <value>Returned Books</value>
+  </data>
+  <data name="subunreturnbooks" xml:space="preserve">
+    <value>Unreturn Books</value>
+  </data>
+  <data name="subuserlogs" xml:space="preserve">
+    <value>User Logs</value>
+  </data>
+  <data name="subusers" xml:space="preserve">
+    <value>Manage Users</value>
   </data>
 </root>
