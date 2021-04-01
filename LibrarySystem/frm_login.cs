@@ -4,10 +4,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms; 
 using LibrarySystem.Includes;
+using LibrarySystem;
 
 namespace LibrarySystem
 {
@@ -53,7 +55,14 @@ namespace LibrarySystem
 
         private void GetText()
         {
-            //PasswordLabel.Text = Res.frm_login;
+            if(Properties.Settings.Default.lenguaje == "en-US")
+            {
+               System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            
+            this.Text = Res.frm_login;
+            PasswordLabel.Text = Res.lbcontrasena;
+            UsernameLabel.Text = Res.lbusuario;
         }
     }
 }

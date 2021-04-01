@@ -83,7 +83,7 @@
             this.PasswordLabel.Name = "PasswordLabel";
             this.PasswordLabel.Size = new System.Drawing.Size(237, 23);
             this.PasswordLabel.TabIndex = 16;
-            this.PasswordLabel.Text = "&Passwordsssssws";
+            this.PasswordLabel.Text = "&Passwords";
             this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // UsernameLabel
@@ -92,7 +92,7 @@
             this.UsernameLabel.Name = "UsernameLabel";
             this.UsernameLabel.Size = new System.Drawing.Size(237, 23);
             this.UsernameLabel.TabIndex = 13;
-            this.UsernameLabel.Text = "Usuario-Ingresar_Julia";
+            this.UsernameLabel.Text = "Usuario";
             this.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // LogoPictureBox
