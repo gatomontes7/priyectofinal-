@@ -216,12 +216,12 @@ namespace LibrarySystem
 
         private void spanishToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "Estás seguro de que quieres cambiar el idioma a inglés.";
+            string message = "Estás seguro de que quieres cambiar el idioma a Español.";
             string caption = "Confirmacion";
 
             if (Properties.Settings.Default.lenguaje == "en-US")
             {
-                message = "You are sure you want to change the Language to English";
+                message = "You are sure you want to change the Language to Spanich";
                 caption = "Confirmation";
             }
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
