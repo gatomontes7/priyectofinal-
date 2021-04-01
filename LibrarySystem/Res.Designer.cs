@@ -196,11 +196,20 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a numero de acceso.
+        ///   Busca una cadena traducida similar a Numero de acceso.
         /// </summary>
         internal static string colaccessionno {
             get {
                 return ResourceManager.GetString("colaccessionno", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Editor.
+        /// </summary>
+        internal static string colbookpuplisher {
+            get {
+                return ResourceManager.GetString("colbookpuplisher", resourceCulture);
             }
         }
         
@@ -876,6 +885,24 @@ namespace LibrarySystem {
         internal static string subfilecategori {
             get {
                 return ResourceManager.GetString("subfilecategori", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Idioma.
+        /// </summary>
+        internal static string sublenguaje {
+            get {
+                return ResourceManager.GetString("sublenguaje", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Cerrar Sesion.
+        /// </summary>
+        internal static string sublogout {
+            get {
+                return ResourceManager.GetString("sublogout", resourceCulture);
             }
         }
         

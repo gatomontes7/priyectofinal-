@@ -163,7 +163,10 @@
     <value>Actualizar</value>
   </data>
   <data name="colaccessionno" xml:space="preserve">
-    <value>numero de acceso</value>
+    <value>Numero de acceso</value>
+  </data>
+  <data name="colbookpuplisher" xml:space="preserve">
+    <value>Editor</value>
   </data>
   <data name="colbooktitle" xml:space="preserve">
     <value>Titulo del libro</value>
@@ -389,6 +392,12 @@
   </data>
   <data name="subfilecategori" xml:space="preserve">
     <value>Gestionar categorías</value>
+  </data>
+  <data name="sublenguaje" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="sublogout" xml:space="preserve">
+    <value>Cerrar Sesion</value>
   </data>
   <data name="subreports" xml:space="preserve">
     <value>Informes</value>

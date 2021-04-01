@@ -165,6 +165,9 @@
   <data name="colaccessionno" xml:space="preserve">
     <value>AccessionNo</value>
   </data>
+  <data name="colbookpuplisher" xml:space="preserve">
+    <value>Book Publisher</value>
+  </data>
   <data name="colbooktitle" xml:space="preserve">
     <value>BookTitle</value>
   </data>
@@ -386,6 +389,12 @@
   </data>
   <data name="subfilecategori" xml:space="preserve">
     <value>Manage Categories</value>
+  </data>
+  <data name="sublenguaje" xml:space="preserve">
+    <value>Languaje</value>
+  </data>
+  <data name="sublogout" xml:space="preserve">
+    <value>Logout</value>
   </data>
   <data name="subreports" xml:space="preserve">
     <value>Reports</value>
