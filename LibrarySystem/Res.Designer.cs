@@ -196,6 +196,33 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a numero de acceso.
+        /// </summary>
+        internal static string colaccessionno {
+            get {
+                return ResourceManager.GetString("colaccessionno", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Titulo del libro.
+        /// </summary>
+        internal static string colbooktitle {
+            get {
+                return ResourceManager.GetString("colbooktitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Descripcion.
+        /// </summary>
+        internal static string coldescription {
+            get {
+                return ResourceManager.GetString("coldescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Iniciar Sesion.
         /// </summary>
         internal static string frm_login {

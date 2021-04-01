@@ -91,7 +91,7 @@ namespace LibrarySystem
         {
             funct.clearTxt(GroupBox1);
             funct.clearTxt(grp_Bgroup);
-            sql = " SELECT br.`AccessionNo`, `BookTitle`, `BookDesc` as 'Description',Concat(`Firstname`,' ', `Lastname`) as 'Borrower',`NoCopies`, `DateBorrowed`, `Purpose`, `DueDate` FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` ORDER BY BorrowId Desc";
+            sql = " SELECT br.`AccessionNo` as '" + Res.colaccessionno + "', `BookTitle` as '" + Res.colbooktitle + "', `BookDesc` as '" +Res.coldescription+"',Concat(`Firstname`,' ', `Lastname`) as 'Borrower',`NoCopies`, `DateBorrowed`, `Purpose`, `DueDate` FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` ORDER BY BorrowId Desc";
             config.Load_ResultList(sql, dtg_BlistOfBooks);
 
             sql = "SELECT AccessionNo From tblbooks Where Status = 'Available'";

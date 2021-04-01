@@ -162,6 +162,15 @@
   <data name="btnupdate" xml:space="preserve">
     <value>Update</value>
   </data>
+  <data name="colaccessionno" xml:space="preserve">
+    <value>AccessionNo</value>
+  </data>
+  <data name="colbooktitle" xml:space="preserve">
+    <value>BookTitle</value>
+  </data>
+  <data name="coldescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
   <data name="frmbooks" xml:space="preserve">
     <value>Books</value>
   </data>
