@@ -81,9 +81,14 @@ namespace LibrarySystem
             btnClose.Text = Res.btnclose;
             GroupBox1.Text = Res.groupbooksdetails;
             grp_Bgroup.Text = Res.frmborrowers;
-            TabPage3.Text = "Detalle";
-            TabPage4.Text = "libros prestados";
-
+            TabPage3.Text = Res.subdetail;
+            TabPage4.Text = Res.subborrowedbooks;
+            Label2.Text = Res.lbsearch;
+            GroupBox6.Text = Res.grouplistofborrowedbooks;
+            cboPurpose.Items.Clear();
+            cboPurpose.Items.Add(Res.itemovernight);
+            cboPurpose.Items.Add(Res.itemresearch);
+            cboPurpose.Items.Add(Res.itemphotocopy);
         }
 
 
@@ -91,7 +96,7 @@ namespace LibrarySystem
         {
             funct.clearTxt(GroupBox1);
             funct.clearTxt(grp_Bgroup);
-            sql = " SELECT br.`AccessionNo` as '" + Res.colaccessionno + "', `BookTitle` as '" + Res.colbooktitle + "', `BookDesc` as '" +Res.coldescription+"',Concat(`Firstname`,' ', `Lastname`) as 'Borrower',`NoCopies`, `DateBorrowed`, `Purpose`, `DueDate` FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` ORDER BY BorrowId Desc";
+            sql = " SELECT br.`AccessionNo` as '" + Res.colaccessionno + "', `BookTitle` as '" + Res.colbooktitle + "', `BookDesc` as '" +Res.coldescription+"',Concat(`Firstname`,' ', `Lastname`) as '"+Res.colborrower+"' ,`NoCopies` as '"+Res.colnocopies+"', `DateBorrowed` as '"+Res.coldateborrowed+"', `Purpose` as '"+Res.colpurpose+"' , `DueDate` as '"+Res.colduedate+"' FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` ORDER BY BorrowId Desc";
             config.Load_ResultList(sql, dtg_BlistOfBooks);
 
             sql = "SELECT AccessionNo From tblbooks Where Status = 'Available'";
