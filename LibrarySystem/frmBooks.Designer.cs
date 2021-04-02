@@ -146,9 +146,9 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(24, 164);
+            this.btnSave.Location = new System.Drawing.Point(12, 164);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(63, 30);
+            this.btnSave.Size = new System.Drawing.Size(75, 30);
             this.btnSave.TabIndex = 38;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -196,6 +196,7 @@
             this.dtgList.Size = new System.Drawing.Size(823, 287);
             this.dtgList.TabIndex = 33;
             this.dtgList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgList_CellClick);
+            this.dtgList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgList_CellContentClick);
             // 
             // cboCategory
             // 

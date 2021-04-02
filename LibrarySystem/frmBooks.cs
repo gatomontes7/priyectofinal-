@@ -27,7 +27,7 @@ namespace LibrarySystem
         {
 
             funct.clearTxt(this);
-            sql = "SELECT `AccessionNo`, `BookTitle`, `BookDesc` as 'Description', `Author`, `PublishDate`, `BookPublisher`, `Category`, BookType as 'TypeOfBooks', `BookPrice` as 'Price',DeweyDecimal,Remark,Status FROM `tblbooks` b, `tblcategory` c WHERE b.`CategoryId`=c.`CategoryId` ";
+            sql = "SELECT `AccessionNo` as '"+Res.lbaccession+"', `BookTitle` as '"+Res.lbbooktitle+ "', `BookDesc`as '"+ Res.lbdescription+ "', `Author` as '" + Res.lbauthor + "', `PublishDate`, `BookPublisher`, `Category`, BookType as 'TypeOfBooks', `BookPrice` as 'Price',DeweyDecimal,Remark,Status FROM `tblbooks` b, `tblcategory` c WHERE b.`CategoryId`=c.`CategoryId` ";
             config.Load_ResultList(sql, dtgList);
 
             sql = "SELECT CategoryId,Category From tblcategory WHERE Category !='ALL'  ORDER BY CATEGORY ASC";
@@ -231,6 +231,11 @@ namespace LibrarySystem
         {
             sql = "SELECT `AccessionNo`, `BookTitle`, `BookDesc` as 'Description', `Author`, `PublishDate`, `BookPublisher`, `Category`, BookType as 'TypeOfBooks', `BookPrice` as 'Price', DeweyDecimal,Remark,Status FROM `tblbooks` b, `tblcategory` c WHERE b.`CategoryId`=c.`CategoryId` AND (`BookTitle` Like '%" + txtSearch.Text + "%' OR `Author` Like '%" + txtSearch.Text + "%' OR `AccessionNo`  Like '%" + txtSearch.Text + "%')";
             config.Load_ResultList(sql, dtgList);
+        }
+
+        private void DtgList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
