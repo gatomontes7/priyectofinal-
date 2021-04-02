@@ -69,8 +69,6 @@ namespace LibrarySystem
             {
                 MessageBox.Show(ex.Message + " No crytal reports installed.");
             }
-
-
         }
         private void Form1_Load(object sender, EventArgs e)
         {

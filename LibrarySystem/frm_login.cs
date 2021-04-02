@@ -30,7 +30,7 @@ namespace LibrarySystem
 
             if (config.dt.Rows.Count > 0)
             {
-                Form frm = new Form1();
+                Form frm = new frmPrincipal();
                 this.Hide();
                 frm.Show();
             }
