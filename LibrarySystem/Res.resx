@@ -165,17 +165,38 @@
   <data name="colaccessionno" xml:space="preserve">
     <value>Numero de acceso</value>
   </data>
+  <data name="colbookdesc" xml:space="preserve">
+    <value>Descripcion del libro</value>
+  </data>
   <data name="colbookpuplisher" xml:space="preserve">
     <value>Editor</value>
   </data>
   <data name="colbooktitle" xml:space="preserve">
     <value>Titulo del libro</value>
   </data>
+  <data name="colborrower" xml:space="preserve">
+    <value>Prestatario</value>
+  </data>
+  <data name="coldateborrowed" xml:space="preserve">
+    <value>Fecha de Prestamo</value>
+  </data>
+  <data name="coldatereturned" xml:space="preserve">
+    <value>Fecha de devolucion</value>
+  </data>
   <data name="coldescription" xml:space="preserve">
     <value>Descripcion</value>
   </data>
+  <data name="colduedate" xml:space="preserve">
+    <value>Fecha de Vencimiento</value>
+  </data>
+  <data name="colnocopies" xml:space="preserve">
+    <value>N. de Copias</value>
+  </data>
   <data name="colprice" xml:space="preserve">
     <value>Precio</value>
+  </data>
+  <data name="colpurpose" xml:space="preserve">
+    <value>Proposito</value>
   </data>
   <data name="colremark" xml:space="preserve">
     <value>Observacion</value>
@@ -228,6 +249,9 @@
   <data name="groupdetails" xml:space="preserve">
     <value>Ver detalles de libros no devueltos</value>
   </data>
+  <data name="grouplistofborrowedbooks" xml:space="preserve">
+    <value>Lista de libros prestados</value>
+  </data>
   <data name="grouppaymenthours" xml:space="preserve">
     <value>Pago por horas</value>
   </data>
@@ -245,6 +269,15 @@
   </data>
   <data name="itemoverdue" xml:space="preserve">
     <value>Atrasado</value>
+  </data>
+  <data name="itemovernight" xml:space="preserve">
+    <value>Durante la noche</value>
+  </data>
+  <data name="itemphotocopy" xml:space="preserve">
+    <value>Fotocopia</value>
+  </data>
+  <data name="itemresearch" xml:space="preserve">
+    <value>Investigar</value>
   </data>
   <data name="itemreturned" xml:space="preserve">
     <value>Devuelto</value>
@@ -339,6 +372,9 @@
   <data name="lbpurpose" xml:space="preserve">
     <value>Propósito</value>
   </data>
+  <data name="lbreturn" xml:space="preserve">
+    <value>Regreso</value>
+  </data>
   <data name="lbsearch" xml:space="preserve">
     <value>Búsqueda:</value>
   </data>
@@ -372,6 +408,9 @@
   <data name="lbusuario" xml:space="preserve">
     <value>Nombre de usuario</value>
   </data>
+  <data name="lbviewdetailsofunreturnbooks" xml:space="preserve">
+    <value>Ver detalles de libros no devueltos</value>
+  </data>
   <data name="lbyessection" xml:space="preserve">
     <value>Año / Sección:</value>
   </data>
@@ -395,6 +434,12 @@
   </data>
   <data name="subborowers" xml:space="preserve">
     <value>Administrar prestatarios</value>
+  </data>
+  <data name="subborrowedbooks" xml:space="preserve">
+    <value>Libros Prestados</value>
+  </data>
+  <data name="subdetail" xml:space="preserve">
+    <value>Detalles</value>
   </data>
   <data name="subenglis" xml:space="preserve">
     <value>Ingles</value>

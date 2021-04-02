@@ -26,11 +26,39 @@ namespace LibrarySystem
         private void frmReturned_Load(object sender, EventArgs e)
         {
             btnNew_Click( sender,  e);
+            GetText();
+        }
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
+            this.Text = Res.frmreturned;
+            Label18.Text = Res.lbborrowername;
+            Label8.Text = Res.lbbooktitle;
+            Label3.Text = Res.lbauthor;
+            Label9.Text = Res.lbdescription;
+            btn_Rsave.Text = Res.btnreturn;
+            btnNew.Text = Res.btnclear;
+            btnClose.Text = Res.btnclose;
+            grp_Rgroup.Text = Res.lbreturn;
+            Label27.Text = Res.lbborrowerid;
+            GroupBox3.Text = Res.lbviewdetailsofunreturnbooks;
+            TabPage5.Text = Res.subunreturnbooks;
+            TabPage6.Text = Res.subreturnedbooks;
+            Label4.Text = Res.itemresearch;
+
+
         }
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-            sql = "SELECT br.`BorrowerId`, `BookTitle`, `DateBorrowed`, `Purpose`, `DueDate`,BorrowId,br.AccessionNo " +
+            sql = "SELECT br.`BorrowerId` as '"+Res.lbborrowerid+ "', `BookTitle` as '"+Res.lbbooktitle+ "', `DateBorrowed` as '"+Res.coldateborrowed+ "', `Purpose` as '"+Res.colpurpose+ "', `DueDate` as '"+Res.colduedate+ "',BorrowId,br.AccessionNo " +
                     " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
                     " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=0 AND br.`BorrowerId` LIKE '%" + txtSearchPborrower.Text + "%' ORDER BY BorrowId Desc";
             config.Load_ResultList(sql, dtg_RlistReturn);
@@ -44,7 +72,7 @@ namespace LibrarySystem
 
         private void txtrbooksSearch_TextChanged(object sender, EventArgs e)
         {
-            sql = "SELECT bw.`BorrowerId`, `Firstname`, `Lastname`,DateBorrowed,b.`AccessionNo`,`BookTitle`, `BookDesc`,`DateReturned` " + 
+            sql = "SELECT bw.`BorrowerId` as '" + Res.lbborrowerid + "', `Firstname` as '"+Res.lbfirstname+ "', `Lastname`as '"+Res.lblastname + "',DateBorrowed as '"+Res.coldateborrowed+ "',b.`AccessionNo` as '"+Res.colaccessionno+ "',`BookTitle` as '"+Res.lbbooktitle+ "', `BookDesc` as '"+Res.colbookdesc+ "',`DateReturned` as '"+Res.coldatereturned+"' " + 
                     " FROM `tblreturn` r, `tblborrow` br,`tblborrower` bw, `tblbooks` b " + 
                     " WHERE r.`BorrowId`=br.`BorrowId` AND br.`AccessionNo`=b.`AccessionNo` AND br.`BorrowerId`=bw.`BorrowerId` AND br.`Status` = 'Returned'" + 
                     " AND  (bw.`BorrowerId` Like '%" + txtrbooksSearch.Text + "%' OR b.`AccessionNo` Like '%" + txtrbooksSearch.Text + 

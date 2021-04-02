@@ -205,6 +205,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Descripcion del libro.
+        /// </summary>
+        internal static string colbookdesc {
+            get {
+                return ResourceManager.GetString("colbookdesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Editor.
         /// </summary>
         internal static string colbookpuplisher {
@@ -223,6 +232,33 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Prestatario.
+        /// </summary>
+        internal static string colborrower {
+            get {
+                return ResourceManager.GetString("colborrower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha de Prestamo.
+        /// </summary>
+        internal static string coldateborrowed {
+            get {
+                return ResourceManager.GetString("coldateborrowed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha de devolucion.
+        /// </summary>
+        internal static string coldatereturned {
+            get {
+                return ResourceManager.GetString("coldatereturned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Descripcion.
         /// </summary>
         internal static string coldescription {
@@ -232,11 +268,38 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Fecha de Vencimiento.
+        /// </summary>
+        internal static string colduedate {
+            get {
+                return ResourceManager.GetString("colduedate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a N. de Copias.
+        /// </summary>
+        internal static string colnocopies {
+            get {
+                return ResourceManager.GetString("colnocopies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Precio.
         /// </summary>
         internal static string colprice {
             get {
                 return ResourceManager.GetString("colprice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Proposito.
+        /// </summary>
+        internal static string colpurpose {
+            get {
+                return ResourceManager.GetString("colpurpose", resourceCulture);
             }
         }
         
@@ -394,6 +457,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Lista de libros prestados.
+        /// </summary>
+        internal static string grouplistofborrowedbooks {
+            get {
+                return ResourceManager.GetString("grouplistofborrowedbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Pago por horas.
         /// </summary>
         internal static string grouppaymenthours {
@@ -444,6 +516,33 @@ namespace LibrarySystem {
         internal static string itemoverdue {
             get {
                 return ResourceManager.GetString("itemoverdue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Durante la noche.
+        /// </summary>
+        internal static string itemovernight {
+            get {
+                return ResourceManager.GetString("itemovernight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fotocopia.
+        /// </summary>
+        internal static string itemphotocopy {
+            get {
+                return ResourceManager.GetString("itemphotocopy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Investigar.
+        /// </summary>
+        internal static string itemresearch {
+            get {
+                return ResourceManager.GetString("itemresearch", resourceCulture);
             }
         }
         
@@ -727,6 +826,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Regreso.
+        /// </summary>
+        internal static string lbreturn {
+            get {
+                return ResourceManager.GetString("lbreturn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Búsqueda:.
         /// </summary>
         internal static string lbsearch {
@@ -826,6 +934,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Ver detalles de libros no devueltos.
+        /// </summary>
+        internal static string lbviewdetailsofunreturnbooks {
+            get {
+                return ResourceManager.GetString("lbviewdetailsofunreturnbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Año / Sección:.
         /// </summary>
         internal static string lbyessection {
@@ -894,6 +1011,24 @@ namespace LibrarySystem {
         internal static string subborowers {
             get {
                 return ResourceManager.GetString("subborowers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Libros Prestados.
+        /// </summary>
+        internal static string subborrowedbooks {
+            get {
+                return ResourceManager.GetString("subborrowedbooks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Detalles.
+        /// </summary>
+        internal static string subdetail {
+            get {
+                return ResourceManager.GetString("subdetail", resourceCulture);
             }
         }
         

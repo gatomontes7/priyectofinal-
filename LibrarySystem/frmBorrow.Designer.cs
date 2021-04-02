@@ -299,15 +299,10 @@
             // cboPurpose
             // 
             this.cboPurpose.FormattingEnabled = true;
-            this.cboPurpose.Items.AddRange(new object[] {
-            "Overnight",
-            "Research",
-            "Photocopy"});
             this.cboPurpose.Location = new System.Drawing.Point(125, 153);
             this.cboPurpose.Name = "cboPurpose";
             this.cboPurpose.Size = new System.Drawing.Size(233, 25);
             this.cboPurpose.TabIndex = 22;
-            this.cboPurpose.Text = "Select";
             // 
             // txtdue
             // 
@@ -400,7 +395,7 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(428, 28);
+            this.Label2.Location = new System.Drawing.Point(401, 27);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(73, 25);
             this.Label2.TabIndex = 2;

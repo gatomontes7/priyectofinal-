@@ -122,9 +122,9 @@
             // 
             // txtSearchPborrower
             // 
-            this.txtSearchPborrower.Location = new System.Drawing.Point(117, 24);
+            this.txtSearchPborrower.Location = new System.Drawing.Point(151, 24);
             this.txtSearchPborrower.Name = "txtSearchPborrower";
-            this.txtSearchPborrower.Size = new System.Drawing.Size(263, 25);
+            this.txtSearchPborrower.Size = new System.Drawing.Size(229, 25);
             this.txtSearchPborrower.TabIndex = 25;
             this.txtSearchPborrower.TextChanged += new System.EventHandler(this.txtSearchPborrower_TextChanged);
             // 
@@ -479,7 +479,7 @@
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(413, 424);
+            this.Label4.Location = new System.Drawing.Point(393, 422);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(86, 25);
             this.Label4.TabIndex = 2;
@@ -489,9 +489,9 @@
             // 
             this.txtrbooksSearch.BackColor = System.Drawing.Color.White;
             this.txtrbooksSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtrbooksSearch.Location = new System.Drawing.Point(505, 419);
+            this.txtrbooksSearch.Location = new System.Drawing.Point(502, 419);
             this.txtrbooksSearch.Name = "txtrbooksSearch";
-            this.txtrbooksSearch.Size = new System.Drawing.Size(295, 30);
+            this.txtrbooksSearch.Size = new System.Drawing.Size(298, 30);
             this.txtrbooksSearch.TabIndex = 1;
             this.txtrbooksSearch.TextChanged += new System.EventHandler(this.txtrbooksSearch_TextChanged);
             // 
