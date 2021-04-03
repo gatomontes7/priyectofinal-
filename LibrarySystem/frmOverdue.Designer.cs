@@ -45,6 +45,7 @@
             this.txtSearchPborrower = new System.Windows.Forms.TextBox();
             this.dtgPenalties = new System.Windows.Forms.DataGridView();
             this.GroupBox10 = new System.Windows.Forms.GroupBox();
+            this.txthours = new System.Windows.Forms.NumericUpDown();
             this.txtamount = new System.Windows.Forms.TextBox();
             this.Label29 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
@@ -61,13 +62,12 @@
             this.GroupBox7 = new System.Windows.Forms.GroupBox();
             this.Label31 = new System.Windows.Forms.Label();
             this.GroupBox4 = new System.Windows.Forms.GroupBox();
-            this.txthours = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.dtgPenalties)).BeginInit();
             this.GroupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txthours)).BeginInit();
             this.GroupBox9.SuspendLayout();
             this.GroupBox7.SuspendLayout();
             this.GroupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txthours)).BeginInit();
             this.SuspendLayout();
             // 
             // Label34
@@ -194,9 +194,9 @@
             // 
             // txtSearchPborrower
             // 
-            this.txtSearchPborrower.Location = new System.Drawing.Point(96, 42);
+            this.txtSearchPborrower.Location = new System.Drawing.Point(126, 42);
             this.txtSearchPborrower.Name = "txtSearchPborrower";
-            this.txtSearchPborrower.Size = new System.Drawing.Size(263, 25);
+            this.txtSearchPborrower.Size = new System.Drawing.Size(233, 25);
             this.txtSearchPborrower.TabIndex = 23;
             this.txtSearchPborrower.TextChanged += new System.EventHandler(this.txtSearchPborrower_TextChanged);
             // 
@@ -231,6 +231,15 @@
             this.GroupBox10.TabIndex = 17;
             this.GroupBox10.TabStop = false;
             this.GroupBox10.Text = "Payment Per Hours";
+            // 
+            // txthours
+            // 
+            this.txthours.Location = new System.Drawing.Point(252, 33);
+            this.txthours.Name = "txthours";
+            this.txthours.Size = new System.Drawing.Size(100, 25);
+            this.txthours.TabIndex = 10;
+            this.txthours.ValueChanged += new System.EventHandler(this.txthours_ValueChanged);
+            this.txthours.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txthours_KeyPress);
             // 
             // txtamount
             // 
@@ -403,15 +412,6 @@
             this.GroupBox4.TabStop = false;
             this.GroupBox4.Text = "View Details of unreturned books with Penalties";
             // 
-            // txthours
-            // 
-            this.txthours.Location = new System.Drawing.Point(252, 33);
-            this.txthours.Name = "txthours";
-            this.txthours.Size = new System.Drawing.Size(100, 25);
-            this.txthours.TabIndex = 10;
-            this.txthours.ValueChanged += new System.EventHandler(this.txthours_ValueChanged);
-            this.txthours.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txthours_KeyPress);
-            // 
             // frmOverdue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -429,13 +429,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgPenalties)).EndInit();
             this.GroupBox10.ResumeLayout(false);
             this.GroupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txthours)).EndInit();
             this.GroupBox9.ResumeLayout(false);
             this.GroupBox9.PerformLayout();
             this.GroupBox7.ResumeLayout(false);
             this.GroupBox7.PerformLayout();
             this.GroupBox4.ResumeLayout(false);
             this.GroupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txthours)).EndInit();
             this.ResumeLayout(false);
 
         }

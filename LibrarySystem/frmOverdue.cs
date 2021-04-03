@@ -29,9 +29,9 @@ namespace LibrarySystem
             funct.clearTxt(GroupBox10);
 
 
-            sql = "SELECT br.`BorrowerId`, `BookTitle`,`DateBorrowed`, `Purpose`, `DueDate` , BorrowId,br.AccessionNo " + 
-              " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " + 
-              " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=1 ";
+            sql = "SELECT br.`BorrowerId` as '" + Res.lbborrowerid + "', `BookTitle` as '" + Res.colbooktitle + "',`DateBorrowed` as '" + Res.coldateborrowed + "', `Purpose` as '" + Res.colpurpose + "', `DueDate` as '" + Res.colduedate + "', BorrowId,br.AccessionNo " +
+             " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
+             " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=1 AND   br.`BorrowerId` Like '%" + txtSearchPborrower.Text + "%'";
             config.Load_ResultList(sql, dtgPenalties);
             dtgPenalties.Columns[5].Visible = false;
             dtgPenalties.Columns[6].Visible = false;
@@ -41,11 +41,39 @@ namespace LibrarySystem
         private void frmOverdue_Load(object sender, EventArgs e)
         {
             btnPenNew_Click(sender, e);
+            GetText();
+        }
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
+            this.Text = Res.frmoverdue;
+            Label2.Text = Res.lbhour;
+            Label27.Text = Res.lbborrowerid;
+            Label28.Text = Res.lboverduetme;
+            Label29.Text = Res.lbamount;
+            Label30.Text = Res.lbper;
+            Label31.Text = Res.lbtotalpayments;
+            Label32.Text = Res.lbtendererd;
+            Label33.Text = Res.lbchange;
+            btnPSave.Text = Res.btnsave;
+            btnPenNew.Text = Res.btnnew;
+            btnPenClose.Text = Res.btnclose;
+            GroupBox7.Text = Res.grouppayments;
+            GroupBox10.Text = Res.grouppaymenthours;
+            GroupBox4.Text = Res.lbpaymentgroup;
+
         }
 
         private void txtSearchPborrower_TextChanged(object sender, EventArgs e)
         {
-            sql = "SELECT br.`BorrowerId`, `BookTitle`,`DateBorrowed`, `Purpose`, `DueDate` , BorrowId,br.AccessionNo " +
+            sql = "SELECT br.`BorrowerId` as '"+Res.lbborrowerid + "', `BookTitle` as '"+Res.colbooktitle+"',`DateBorrowed` as '"+Res.coldateborrowed+"', `Purpose` as '"+Res.colpurpose+"', `DueDate` as '"+Res.colduedate+"', BorrowId,br.AccessionNo " +
              " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
              " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=1 AND   br.`BorrowerId` Like '%" + txtSearchPborrower.Text + "%'";
             config.Load_ResultList(sql, dtgPenalties);

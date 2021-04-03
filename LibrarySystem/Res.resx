@@ -307,7 +307,7 @@
     <value>Nombre del prestatario:</value>
   </data>
   <data name="lbcategory" xml:space="preserve">
-    <value>Categoría:</value>
+    <value>Categoria:</value>
   </data>
   <data name="lbchange" xml:space="preserve">
     <value>Cambio:</value>
@@ -482,5 +482,8 @@
   </data>
   <data name="msgconfirmacion" xml:space="preserve">
     <value>Confirmacion</value>
+  </data>
+  <data name="colcategoryid" xml:space="preserve">
+    <value>ID</value>
   </data>
 </root>
