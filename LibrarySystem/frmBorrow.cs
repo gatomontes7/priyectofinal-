@@ -60,10 +60,7 @@ namespace LibrarySystem
 
         private void GetText()
         {
-            if (Properties.Settings.Default.lenguaje == "en-US")
-            {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
-            }
+
 
             this.Text = Res.frmborrowers;
             lblAccessionNumBorrow.Text = Res.lbaccession;
@@ -86,7 +83,9 @@ namespace LibrarySystem
             Label2.Text = Res.lbsearch;
             GroupBox6.Text = Res.grouplistofborrowedbooks;
             cboPurpose.Items.Clear();
+
             cboPurpose.Items.Add(Res.itemovernight);
+  
             cboPurpose.Items.Add(Res.itemresearch);
             cboPurpose.Items.Add(Res.itemphotocopy);
         }
@@ -144,31 +143,34 @@ namespace LibrarySystem
                 return;
             }
             DateTime formatdate;
-
-            switch (cboPurpose.Text)
+            
+       
+            if(cboPurpose.SelectedItem.ToString()== Res.itemphotocopy)
             {
-                case "Photocopy":
-                    formatdate = DateTime.Now.AddMinutes(30);
-                    //MessageBox.Show(formatdate.ToString("yyyy-MM-dd HH:mm:ss"));
-                    txtdue.Text = formatdate.ToString("yyyy-MM-dd HH:mm:ss");
-                    break;
-                case "Research":
-                    if(DateTime.Now.ToString("tt") == "AM")
-                    {
-                        txtdue.Text = DateTime.Now.ToString("yyyy-MM-dd") + " 11:30:00";
-                    }
-                    else if (DateTime.Now.ToString("tt") == "PM")
-                    { 
-                        txtdue.Text = DateTime.Now.ToString("yyyy-MM-dd") + " 17:30:00";
-                    } 
-                    break;
-                case "Overnight":
-                    formatdate = DateTime.Now.AddHours(24);
-                    //MessageBox.Show(formatdate.ToString("yyyy-MM-dd HH:mm:ss"));
-                    txtdue.Text = formatdate.ToString("yyyy-MM-dd HH:mm:ss");
-                    break; 
+                formatdate = DateTime.Now.AddMinutes(30);
+                txtdue.Text = formatdate.ToString("yyyy-MM-dd HH:mm:ss");             
             }
-              
+            else if (cboPurpose.SelectedItem.ToString() == Res.itemresearch)
+            {
+
+                if (DateTime.Now.ToString("tt") == "AM")
+                {
+                    txtdue.Text = DateTime.Now.ToString("yyyy-MM-dd") + " 11:30:00";
+                }
+                else
+                {
+                    txtdue.Text = DateTime.Now.ToString("yyyy-MM-dd") + " 17:30:00";
+                }
+
+            }
+            else if (cboPurpose.SelectedItem.ToString() == Res.itemovernight)
+            {
+                formatdate = DateTime.Now.AddHours(24);
+                txtdue.Text = formatdate.ToString("yyyy-MM-dd HH:mm:ss");
+            }
+
+
+
             sql = "INSERT INTO  `tblborrow`  " +
                 " (`AccessionNo`, `NoCopies`, `DateBorrowed`, `Purpose`, `Status`, `DueDate`, `BorrowerId`) " +
                 " VALUES ('" + txtAccesionNumBorrow.Text + "',1,NOW(),'" + cboPurpose.Text + "', 'Borrowed','" + txtdue.Text + "','" + txtBorrowerId.Text + "')";

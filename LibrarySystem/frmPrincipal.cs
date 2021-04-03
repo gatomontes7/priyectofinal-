@@ -103,12 +103,10 @@ namespace LibrarySystem
             sql = "SELECT `Fullname`, `User_name`, `UserRole`,`LogDate`, `LogMode` FROM `tbllogs` l, `tbluser` u WHERE l.`UserId`=u.`UserId`";
             if (Properties.Settings.Default.lenguaje == "en-US")
             {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
                 reports(sql, "LogsReport");
             }
             else
             {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
                 reports(sql, "Informederegistros");
             }
             this.Text = Res.frmprincipal;

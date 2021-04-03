@@ -17,32 +17,8 @@ namespace LibrarySystem
         {
             InitializeComponent();
         }
-        //public void enabled_menu()
-        //{
-        //    ts_login.Text = "Logout";
-        //    ts_books.Enabled = true;
-        //    ts_transaction.Enabled = true;
-        //    ts_borrower.Enabled = true;
-        //    ts_categories.Enabled = true;
-        //    ts_users.Enabled = true;
-        //    ts_reports.Enabled = true;
-        //    ts_logs.Enabled = true;
-        //    ts_login.Image = Properties.Resources.unlock;
-        //}
-
-        //public void disabled_menu()
-        //{
-        //    ts_login.Text = "Login";
-        //    ts_books.Enabled = false;
-        //    ts_transaction.Enabled = false;
-        //    ts_borrower.Enabled = false;
-        //    ts_categories.Enabled = false;
-        //    ts_users.Enabled = false;
-        //    ts_reports.Enabled = false;
-        //    ts_logs.Enabled = false;
-        //    ts_login.Image = Properties.Resources._lock;
-        //}
-       SQLConfig config = new SQLConfig();
+      
+        SQLConfig config = new SQLConfig();
         usableFunction funct = new usableFunction();
         string sql;
 

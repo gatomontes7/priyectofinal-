@@ -27,8 +27,6 @@ namespace LibrarySystem
         {
             funct.clearTxt(GroupBox7);
             funct.clearTxt(GroupBox10);
-
-
             sql = "SELECT br.`BorrowerId` as '" + Res.lbborrowerid + "', `BookTitle` as '" + Res.colbooktitle + "',`DateBorrowed` as '" + Res.coldateborrowed + "', `Purpose` as '" + Res.colpurpose + "', `DueDate` as '" + Res.colduedate + "', BorrowId,br.AccessionNo " +
              " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
              " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=1 AND   br.`BorrowerId` Like '%" + txtSearchPborrower.Text + "%'";
