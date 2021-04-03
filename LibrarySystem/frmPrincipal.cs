@@ -112,6 +112,7 @@ namespace LibrarySystem
                 reports(sql, "Informederegistros");
             }
             this.Text = Res.frmprincipal;
+            label1.Text = Res.frmprincipal;
             //this.menuStrip1.Items[0].Text = Res.subfile;
             this.button1.Text = Res.subfilecategori;
             this.button2.Text = Res.subbook;
@@ -125,8 +126,8 @@ namespace LibrarySystem
             button8.Text = Res.sublogout;
             label3.Text = Res.sublenguaje;
             label2.Text = Res.sublogout;
-           // spanishToolStripMenuItem.Text = Res.subspanish;
-            //englishToolStripMenuItem.Text = Res.subenglis;
+            españolToolStripMenuItem.Text = Res.subspanish;
+            inglesToolStripMenuItem.Text = Res.subenglis;
         }
         private void reports(string sql, string rptname)
         {
@@ -150,6 +151,85 @@ namespace LibrarySystem
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message + " No crytal reports installed.");
+            }
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+           
+            contextMenuStrip1.Show(Cursor.Position);
+        }
+
+        private void Label3_MouseHover(object sender, EventArgs e)
+        {
+            label3.Font = new System.Drawing.Font(label3.Font, FontStyle.Underline);
+        
+        }
+
+        private void Label3_MouseLeave(object sender, EventArgs e)
+        {
+            label3.Font = new System.Drawing.Font(label3.Font, FontStyle.Regular);
+        }
+
+        private void Label2_MouseHover(object sender, EventArgs e)
+        {
+            label2.Font = new System.Drawing.Font(label2.Font, FontStyle.Underline);
+        }
+
+        private void Label2_MouseLeave(object sender, EventArgs e)
+        {
+            label2.Font = new System.Drawing.Font(label2.Font, FontStyle.Regular);
+        }
+
+        private void Button1_MouseHover(object sender, EventArgs e)
+        {
+            button1.Font = new System.Drawing.Font(button1.Font, FontStyle.Underline);
+        }
+
+        private void Button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.Font = new System.Drawing.Font(button1.Font, FontStyle.Regular);
+        }
+
+        private void InglesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message = Res.msgcamidiomaingles;
+            string caption = Res.msgconfirmacion;
+
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            result = MessageBox.Show(message, caption, buttons);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                Properties.Settings.Default.lenguaje = "en-US";
+                Properties.Settings.Default.Save();
+                frm_login frm = new frm_login();
+                frm.Show();
+                frm.cargar();
+                this.Close();
+            }
+        }
+
+        private void EspañolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message = Res.msgcamidiomaespanol;
+            string caption = Res.msgconfirmacion;
+
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            result = MessageBox.Show(message, caption, buttons);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                Properties.Settings.Default.lenguaje = "es";
+                Properties.Settings.Default.Save();
+
+                frm_login frm = new frm_login();
+
+                frm.Show();
+                frm.cargar();
+                this.Close();
             }
         }
     }

@@ -471,4 +471,13 @@
   <data name="subusers" xml:space="preserve">
     <value>Manage Users</value>
   </data>
+  <data name="msgcamidiomaespanol" xml:space="preserve">
+    <value>You are sure you want to change the Language to Spanich</value>
+  </data>
+  <data name="msgcamidiomaingles" xml:space="preserve">
+    <value>You are sure you want to change the Language to English</value>
+  </data>
+  <data name="msgconfirmacion" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
 </root>

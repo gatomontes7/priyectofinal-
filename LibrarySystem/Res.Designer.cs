@@ -952,6 +952,33 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Estás seguro de que quieres cambiar el idioma a Español..
+        /// </summary>
+        internal static string msgcamidiomaespanol {
+            get {
+                return ResourceManager.GetString("msgcamidiomaespanol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Estás seguro de que quieres cambiar el idioma a inglés..
+        /// </summary>
+        internal static string msgcamidiomaingles {
+            get {
+                return ResourceManager.GetString("msgcamidiomaingles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Confirmacion.
+        /// </summary>
+        internal static string msgconfirmacion {
+            get {
+                return ResourceManager.GetString("msgconfirmacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Reporte diario.
         /// </summary>
         internal static string rddailyreport {

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -50,12 +51,16 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.inglesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -72,7 +77,7 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(-1, -6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(157, 491);
+            this.panel1.Size = new System.Drawing.Size(157, 595);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -83,18 +88,18 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(157, -6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(653, 94);
+            this.panel2.Size = new System.Drawing.Size(824, 72);
             this.panel2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(31, 20);
+            this.label1.Location = new System.Drawing.Point(31, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(344, 55);
+            this.label1.Size = new System.Drawing.Size(266, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "Librery System";
             // 
@@ -113,6 +118,8 @@
             this.button1.Text = "Manage Categories";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.button1.MouseLeave += new System.EventHandler(this.Button1_MouseLeave);
+            this.button1.MouseHover += new System.EventHandler(this.Button1_MouseHover);
             // 
             // button2
             // 
@@ -202,7 +209,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(600, 20);
+            this.button7.Location = new System.Drawing.Point(776, 18);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(32, 29);
             this.button7.TabIndex = 6;
@@ -216,12 +223,14 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(11, 432);
+            this.label2.Location = new System.Drawing.Point(11, 523);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = "Cerrar Secion";
             this.label2.Click += new System.EventHandler(this.Label2_Click);
+            this.label2.MouseLeave += new System.EventHandler(this.Label2_MouseLeave);
+            this.label2.MouseHover += new System.EventHandler(this.Label2_MouseHover);
             // 
             // crystalReportViewer1
             // 
@@ -235,7 +244,7 @@
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ShowCloseButton = false;
             this.crystalReportViewer1.ShowGroupTreeButton = false;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(625, 219);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(802, 319);
             this.crystalReportViewer1.TabIndex = 16;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -243,13 +252,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ContextMenuStrip = this.contextMenuStrip1;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 451);
+            this.label3.Location = new System.Drawing.Point(12, 546);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 16);
             this.label3.TabIndex = 7;
             this.label3.Text = "Idioma";
+            this.label3.Click += new System.EventHandler(this.Label3_Click);
+            this.label3.MouseLeave += new System.EventHandler(this.Label3_MouseLeave);
+            this.label3.MouseHover += new System.EventHandler(this.Label3_MouseHover);
             // 
             // pictureBox1
             // 
@@ -278,7 +291,7 @@
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::LibrarySystem.Properties.Resources.unlock;
-            this.pictureBox4.Location = new System.Drawing.Point(669, 99);
+            this.pictureBox4.Location = new System.Drawing.Point(788, 99);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(105, 101);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -289,7 +302,7 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(521, 99);
+            this.pictureBox3.Location = new System.Drawing.Point(587, 99);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(110, 101);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -300,7 +313,7 @@
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(371, 99);
+            this.pictureBox2.Location = new System.Drawing.Point(405, 99);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 101);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -311,7 +324,7 @@
             // 
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(660, 212);
+            this.button8.Location = new System.Drawing.Point(779, 212);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(130, 26);
             this.button8.TabIndex = 21;
@@ -323,7 +336,7 @@
             // 
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(364, 212);
+            this.button9.Location = new System.Drawing.Point(398, 212);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(117, 26);
             this.button9.TabIndex = 20;
@@ -335,7 +348,7 @@
             // 
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(513, 212);
+            this.button10.Location = new System.Drawing.Point(579, 212);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(125, 26);
             this.button10.TabIndex = 19;
@@ -343,11 +356,33 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.Button10_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inglesToolStripMenuItem,
+            this.españolToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
+            // 
+            // inglesToolStripMenuItem
+            // 
+            this.inglesToolStripMenuItem.Name = "inglesToolStripMenuItem";
+            this.inglesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.inglesToolStripMenuItem.Text = "Ingles";
+            this.inglesToolStripMenuItem.Click += new System.EventHandler(this.InglesToolStripMenuItem_Click);
+            // 
+            // españolToolStripMenuItem
+            // 
+            this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
+            this.españolToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.españolToolStripMenuItem.Text = "Español";
+            this.españolToolStripMenuItem.Click += new System.EventHandler(this.EspañolToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 468);
+            this.ClientSize = new System.Drawing.Size(977, 568);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -372,6 +407,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -399,5 +435,8 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem inglesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem españolToolStripMenuItem;
     }
 }
