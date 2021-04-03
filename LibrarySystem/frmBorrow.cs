@@ -60,10 +60,7 @@ namespace LibrarySystem
 
         private void GetText()
         {
-            if (Properties.Settings.Default.lenguaje == "en-US")
-            {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
-            }
+
 
             this.Text = Res.frmborrowers;
             lblAccessionNumBorrow.Text = Res.lbaccession;
@@ -146,8 +143,6 @@ namespace LibrarySystem
                 return;
             }
             DateTime formatdate;
-             MessageBox.Show(cboPurpose.SelectedItem.ToString(), "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-      
             
        
             if(cboPurpose.SelectedItem.ToString()== Res.itemphotocopy)
@@ -157,21 +152,22 @@ namespace LibrarySystem
             }
             else if (cboPurpose.SelectedItem.ToString() == Res.itemresearch)
             {
+
                 if (DateTime.Now.ToString("tt") == "AM")
                 {
                     txtdue.Text = DateTime.Now.ToString("yyyy-MM-dd") + " 11:30:00";
                 }
-                else if (DateTime.Now.ToString("tt") == "PM")
+                else
                 {
                     txtdue.Text = DateTime.Now.ToString("yyyy-MM-dd") + " 17:30:00";
                 }
+
             }
             else if (cboPurpose.SelectedItem.ToString() == Res.itemovernight)
             {
                 formatdate = DateTime.Now.AddHours(24);
                 txtdue.Text = formatdate.ToString("yyyy-MM-dd HH:mm:ss");
             }
-            MessageBox.Show(cboPurpose.SelectedItem.ToString() + " " + Res.itemovernight + "  " + txtdue.Text, "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
 
 
