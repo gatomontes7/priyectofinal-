@@ -480,4 +480,7 @@
   <data name="msgconfirmacion" xml:space="preserve">
     <value>Confirmation</value>
   </data>
+  <data name="colcategoryid" xml:space="preserve">
+    <value>Category Id</value>
+  </data>
 </root>

@@ -123,7 +123,7 @@
             this.Label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label4.Image = ((System.Drawing.Image)(resources.GetObject("Label4.Image")));
             this.Label4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Label4.Location = new System.Drawing.Point(80, 111);
+            this.Label4.Location = new System.Drawing.Point(46, 113);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(42, 17);
             this.Label4.TabIndex = 37;
@@ -144,7 +144,7 @@
             this.Label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.Image = ((System.Drawing.Image)(resources.GetObject("Label3.Image")));
             this.Label3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Label3.Location = new System.Drawing.Point(57, 85);
+            this.Label3.Location = new System.Drawing.Point(46, 88);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(71, 17);
             this.Label3.TabIndex = 35;
@@ -165,7 +165,7 @@
             this.Label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.Image = ((System.Drawing.Image)(resources.GetObject("Label2.Image")));
             this.Label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Label2.Location = new System.Drawing.Point(54, 59);
+            this.Label2.Location = new System.Drawing.Point(46, 60);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(74, 17);
             this.Label2.TabIndex = 32;
@@ -186,7 +186,7 @@
             this.Label1.BackColor = System.Drawing.Color.White;
             this.Label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Label1.Location = new System.Drawing.Point(80, 33);
+            this.Label1.Location = new System.Drawing.Point(46, 33);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(50, 17);
             this.Label1.TabIndex = 31;

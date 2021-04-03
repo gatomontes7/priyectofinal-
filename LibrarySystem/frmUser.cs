@@ -27,15 +27,37 @@ namespace LibrarySystem
         private void frmUser_Load(object sender, EventArgs e)
         {
             btn_New_Click(sender, e);
+            GetText();
         }
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
+            this.Text = Res.frmuser;
+            Label1.Text = Res.lbname;
+            Label2.Text = Res.lbusername;
+            Label3.Text = Res.lbpassword;
+            Label4.Text = Res.lbtype;
+            btn_saveuser.Text = Res.btnsave;
+            btn_update.Text = Res.btnupdate;
+            btn_delete.Text = Res.btndelete;
+            btn_New.Text = Res.btnnew;
+            Button1.Text = Res.btnclose;
 
+        }
         private void btn_New_Click(object sender, EventArgs e)
         {
             lbl_id.Text = "id";
             funct.clearTxt(this);
 
             cbo_type.Text = "Administrator";
-            sql = "Select UserId as 'ID' ,Fullname as 'Name',User_name as 'UserName',UserRole as 'Type' From tbluser WHERE Status='Active'";
+            sql = "Select UserId as 'ID' ,Fullname as '"+Res.lbname + "',User_name as '"+Res.lbusername+ "',UserRole as '"+Res.lbtype+"' From tbluser WHERE Status='Active'";
             config.Load_DTG(sql, dtg_listUser);
             dtg_listUser.Columns[0].Visible = false;
             if(lbl_id.Text == "id")

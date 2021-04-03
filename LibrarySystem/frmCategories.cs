@@ -26,6 +26,27 @@ namespace LibrarySystem
         private void frmCategories_Load(object sender, EventArgs e)
         {
             btnnew_Click(sender, e);
+            GetText();
+        }
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
+            this.Text = Res.frmcategories;
+            Label2.Text = Res.lbcategory;
+            Label4.Text = Res.lbdeweydecimal;
+            btnsave.Text = Res.btnsave;
+            btndelete.Text = Res.btndelete;
+            btnnew.Text = Res.btnnew;
+            btnclose.Text = Res.btnclose;
+            Label3.Text = Res.lbsearch;
+
         }
 
         private void btnnew_Click(object sender, EventArgs e)
@@ -33,7 +54,7 @@ namespace LibrarySystem
             categoryid = "0";
             txtCategory.Clear();
             txtDeweyDecimal.Clear();
-            sql = "Select CategoryId,`Category`,`DDecimal` as 'DeweyDecimal' From tblcategory WHERE Category !='ALL'";
+            sql = "Select CategoryId as '"+Res.colcategoryid+"',`Category` as '"+Res.lbcategory + "',`DDecimal` as '"+Res.lbdeweydecimal + "' From tblcategory WHERE Category !='ALL'";
             config.Load_DTG(sql, dtglist);
             btndelete.Enabled = false;
         }

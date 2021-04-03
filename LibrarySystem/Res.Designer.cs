@@ -241,6 +241,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a ID.
+        /// </summary>
+        internal static string colcategoryid {
+            get {
+                return ResourceManager.GetString("colcategoryid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Fecha de Prestamo.
         /// </summary>
         internal static string coldateborrowed {
@@ -628,7 +637,7 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Categoría:.
+        ///   Busca una cadena traducida similar a Categoria:.
         /// </summary>
         internal static string lbcategory {
             get {
