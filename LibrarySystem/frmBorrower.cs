@@ -38,7 +38,7 @@ namespace LibrarySystem
         private void btn_New_Click(object sender, EventArgs e)
         {
             funct.clearTxt(this);  
-            sql = "SELECT BorrowerId,`Firstname`, `Lastname`, `MiddleName`, `Address`, `Sex`, `ContactNo`, `CourseYear`  as 'Course/Year' FROM `tblborrower`  WHERE Stats='Active'";
+            sql = "SELECT BorrowerId as '"+Res.lbborrowerid+ "',`Firstname` as '"+Res.lbfirstname+ "', `Lastname` as '"+Res.lblastname+ "', `MiddleName` as '"+Res.lbmiddlename+ "', `Address` as '"+Res.lbadress+ "', `Sex` as '"+Res.lbsexo+ "', `ContactNo` as '"+Res.lbcontactno+ "', `CourseYear`  as '"+Res.lbcourse+"' FROM `tblborrower`  WHERE Stats='Active'";
             config.Load_ResultList(sql, dtg_ABorrowLists); 
             PictureBox1.ImageLocation = "";
             btn_delete.Enabled = false;
@@ -56,6 +56,35 @@ namespace LibrarySystem
         private void frmBorrower_Load(object sender, EventArgs e)
         {
             btn_New_Click(sender, e);
+            GetText();
+        }
+
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
+            this.Text = Res.frmborrowers;
+            Label1.Text = Res.lbborrowerid;
+            Label2.Text = Res.lbfirstname;
+            Label3.Text = Res.lblastname;
+            Label4.Text = Res.lbmiddlename;
+            Label5.Text = Res.lbadress;
+            Label9.Text = Res.lbsexo;
+            rdio_male.Text = Res.rdmale;
+            rdio_female.Text = Res.rdfemale;
+            Label7.Text = Res.lbcontactno;
+            Label6.Text = Res.lbcourse;
+            btn_save.Text = Res.btnsave;
+            btn_delete.Text = Res.btndelete;
+            btn_New.Text = Res.btnclear;
+            btnClose.Text = Res.btnclose;
+
         }
 
         private void txt_bid_TextChanged(object sender, EventArgs e)

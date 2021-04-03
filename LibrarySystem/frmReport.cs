@@ -52,6 +52,30 @@ namespace LibrarySystem
         }
         private void frmReport_Load(object sender, EventArgs e)
         {
+            GetText();
+        }
+        private void GetText()
+        {
+            if (Properties.Settings.Default.lenguaje == "en-US")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("");
+            }
+            this.Text = Res.frmreport;
+            GroupBox1.Text = Res.groupbooks;
+            btnListBooks.Text = Res.btnlistbooks;
+            btnTotalbooks.Text = Res.btntotalnobooks;
+            Label1.Text = Res.lbstatus;
+            rdoDaily.Text = Res.rddailyreport;
+            rdoWeekly.Text = Res.rdweeklyreport;
+            rdoMonthly.Text = Res.rdmonthlyreport;
+            GroupBox2.Text = Res.groupdatefilter;
+            Label2.Text = Res.lbstartdate;
+            Label3.Text = Res.lbenddate;
+            btn_preview.Text = Res.btnpreview;
 
         }
 
