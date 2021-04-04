@@ -217,6 +217,7 @@
             this.dtgPenalties.Size = new System.Drawing.Size(350, 392);
             this.dtgPenalties.TabIndex = 0;
             this.dtgPenalties.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgPenalties_CellClick);
+            this.dtgPenalties.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgPenalties_CellContentClick);
             // 
             // GroupBox10
             // 

@@ -27,6 +27,8 @@ namespace LibrarySystem
         {
             funct.clearTxt(GroupBox7);
             funct.clearTxt(GroupBox10);
+
+
             sql = "SELECT br.`BorrowerId` as '" + Res.lbborrowerid + "', `BookTitle` as '" + Res.colbooktitle + "',`DateBorrowed` as '" + Res.coldateborrowed + "', `Purpose` as '" + Res.colpurpose + "', `DueDate` as '" + Res.colduedate + "', BorrowId,br.AccessionNo " +
              " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
              " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=1 AND   br.`BorrowerId` Like '%" + txtSearchPborrower.Text + "%'";
@@ -120,9 +122,7 @@ namespace LibrarySystem
 
             }
         
-            //totalhours = condays + tValueHour
-            //totalhours = totalhours / Val(frmPayments.txthours.Text)
-            //frmPayments.txtTotPay.Text = totalhours * Val(frmPayments.txtamount.Text)
+
         }
          
         private void txthours_ValueChanged(object sender, EventArgs e)
@@ -208,6 +208,11 @@ namespace LibrarySystem
         private void btnPenClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void DtgPenalties_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -60,7 +60,7 @@ namespace LibrarySystem
         {
             sql = "SELECT br.`BorrowerId` as '"+Res.lbborrowerid+ "', `BookTitle` as '"+Res.lbbooktitle+ "', `DateBorrowed` as '"+Res.coldateborrowed+ "', `Purpose` as '"+Res.colpurpose+ "', `DueDate` as '"+Res.colduedate+ "',BorrowId,br.AccessionNo " +
                     " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
-                    " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=0 AND br.`BorrowerId` LIKE '%" + txtSearchPborrower.Text + "%' ORDER BY BorrowId Desc";
+                    " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND br.Due=0 AND br.`BorrowerId` LIKE '%" + txtSearchPborrower.Text + "%' ORDER BY BorrowId Desc";
             config.Load_ResultList(sql, dtg_RlistReturn);
             dtg_RlistReturn.Columns[5].Visible = false;
             dtg_RlistReturn.Columns[6].Visible = false; 

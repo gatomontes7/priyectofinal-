@@ -96,7 +96,15 @@ namespace LibrarySystem
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
+            timer1.Start();
             GetText();
+           // revisar();
+        }
+        DateTime formatdate;
+        private void revisar()
+        {
+
+
         }
         private void GetText()
         {
@@ -229,6 +237,52 @@ namespace LibrarySystem
                 frm.cargar();
                 this.Close();
             }
+        }
+
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            formatdate = DateTime.Now;
+            sql = "UPDATE `tblborrow` br SET br.Due=1 WHERE br.Status='Borrowed' AND br.DueDate<='"+ formatdate.ToString("yyyy-MM-dd HH:mm:ss") + "'";
+            config.Execute_Query(sql);
+
+            sql = "SELECT br.`BorrowerId` " +
+             " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
+             " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND br.Status='Borrowed' AND Due=1 ";
+            config.singleResult(sql);
+
+            if (config.dt.Rows.Count > 0)
+            {
+                label4.Visible = true;
+                label4.Text = config.dt.Rows.Count.ToString();
+            }
+            else
+            {
+                label4.Visible = false;
+            }
+        }
+
+        private void Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        frmNotific frmnot = new frmNotific();
+        private void Panel3_Click(object sender, EventArgs e)
+        {
+            frmnot.Location = Cursor.Position;
+            frmnot.Hide();
+            frmnot.recargar();
+            frmnot.Show();
+            
+        }
+
+        private void FrmPrincipal_MouseHover(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void FrmPrincipal_Click(object sender, EventArgs e)
+        {
+            frmnot.Hide();
         }
     }
 }
