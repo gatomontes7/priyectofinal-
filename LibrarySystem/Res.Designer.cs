@@ -691,7 +691,7 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Descripción:.
+        ///   Busca una cadena traducida similar a Descripcion:.
         /// </summary>
         internal static string lbdescripcion {
             get {
