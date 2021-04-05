@@ -79,6 +79,7 @@ namespace LibrarySystem
             UsernameLabel.Text = Res.lbusuario;
             OK.Text = Res.btnok;
             Cancel.Text = Res.btncancelar;
+            label1.Text = Res.frm_login;
         }
 
         private void button3_Click(object sender, EventArgs e)

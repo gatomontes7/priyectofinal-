@@ -331,7 +331,7 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Iniciar Sesion.
+        ///   Busca una cadena traducida similar a CUENTA DE INGRESO.
         /// </summary>
         internal static string frm_login {
             get {
@@ -1015,6 +1015,24 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Registro guardado correctamente.
+        /// </summary>
+        internal static string msgsave {
+            get {
+                return ResourceManager.GetString("msgsave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Registro actualizado correctamente.
+        /// </summary>
+        internal static string msgupdated {
+            get {
+                return ResourceManager.GetString("msgupdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Reporte diario.
         /// </summary>
         internal static string rddailyreport {
@@ -1150,6 +1168,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Administrar.
+        /// </summary>
+        internal static string submanage {
+            get {
+                return ResourceManager.GetString("submanage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Informes.
         /// </summary>
         internal static string subreports {
@@ -1173,6 +1200,15 @@ namespace LibrarySystem {
         internal static string subspanish {
             get {
                 return ResourceManager.GetString("subspanish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Lista.
+        /// </summary>
+        internal static string subtabcontrol1 {
+            get {
+                return ResourceManager.GetString("subtabcontrol1", resourceCulture);
             }
         }
         

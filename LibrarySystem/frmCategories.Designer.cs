@@ -56,9 +56,9 @@
             // 
             this.txtSearch.BackColor = System.Drawing.Color.White;
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(84, 26);
+            this.txtSearch.Location = new System.Drawing.Point(88, 26);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(232, 23);
+            this.txtSearch.Size = new System.Drawing.Size(213, 23);
             this.txtSearch.TabIndex = 18;
             this.txtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
             // 
@@ -66,7 +66,7 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(13, 29);
+            this.Label3.Location = new System.Drawing.Point(6, 29);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(65, 17);
             this.Label3.TabIndex = 17;

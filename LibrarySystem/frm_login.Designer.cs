@@ -148,7 +148,7 @@
             this.Cancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Cancel.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Bold);
-            this.Cancel.ForeColor = System.Drawing.Color.Black;
+            this.Cancel.ForeColor = System.Drawing.Color.Crimson;
             this.Cancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Cancel.Location = new System.Drawing.Point(190, 225);
             this.Cancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -168,7 +168,7 @@
             this.OK.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.OK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OK.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Bold);
-            this.OK.ForeColor = System.Drawing.Color.Black;
+            this.OK.ForeColor = System.Drawing.Color.Crimson;
             this.OK.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.OK.Location = new System.Drawing.Point(31, 225);
             this.OK.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);

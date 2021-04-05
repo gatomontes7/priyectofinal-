@@ -49,6 +49,8 @@ namespace LibrarySystem
             btn_update.Text = Res.btnupdate;
             btn_New.Text = Res.btnnew;
             Button1.Text = Res.btnclose;
+            tabPage1.Text = Res.subtabcontrol1;
+            tabPage2.Text = Res.submanage;
         }
         private void btn_New_Click(object sender, EventArgs e)
         {
@@ -83,7 +85,7 @@ namespace LibrarySystem
              + "values('" + txt_name.Text + "','" + txt_username.Text 
              + "',sha1('" + txt_pass.Text + "'),'" + cbo_type.Text 
              + "','Active'," + cbo_type.SelectedIndex+ ")";
-            config.Execute_CUD(sql, "error to execute query.", "New User has been saved in the database.");
+            config.Execute_CUD(sql, Res.msgerror, Res.msgsave);
             btn_New_Click(sender, e);
             tabControl1.SelectedTab = tabPage1;
 
@@ -95,7 +97,7 @@ namespace LibrarySystem
                 + "',Pass= sha1('" + txt_pass.Text + "'),UserRole= '" + cbo_type.Text
                 + "' where UserId = " + lbl_id.Text;
 
-            config.Execute_CUD(sql, "error to execute query.", "Users has been updated in the database.");
+            config.Execute_CUD(sql, Res.msgerror, Res.msgupdated);
 
             btn_New_Click(sender, e);
             tabControl1.SelectedTab = tabPage1;

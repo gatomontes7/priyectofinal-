@@ -205,7 +205,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(133)))), ((int)(((byte)(245)))));
             this.panel2.BackgroundImage = global::LibrarySystem.Properties.Resources.fondo;
             this.panel2.Controls.Add(this.button11);
             this.panel2.Controls.Add(this.label4);

@@ -235,7 +235,7 @@
     <value>Manage Users</value>
   </data>
   <data name="frm_login" xml:space="preserve">
-    <value>Log in</value>
+    <value>ACCOUNT LOGIN</value>
   </data>
   <data name="groupbooks" xml:space="preserve">
     <value>Books</value>
@@ -494,5 +494,17 @@
   </data>
   <data name="repusuarios" xml:space="preserve">
     <value>LogsReport</value>
+  </data>
+  <data name="msgsave" xml:space="preserve">
+    <value>Record saved successfully</value>
+  </data>
+  <data name="msgupdated" xml:space="preserve">
+    <value>Registry updated successfully</value>
+  </data>
+  <data name="submanage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="subtabcontrol1" xml:space="preserve">
+    <value>List</value>
   </data>
 </root>

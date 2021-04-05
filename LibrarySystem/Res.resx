@@ -235,7 +235,7 @@
     <value>Administrar usuarios</value>
   </data>
   <data name="frm_login" xml:space="preserve">
-    <value>Iniciar Sesion</value>
+    <value>CUENTA DE INGRESO</value>
   </data>
   <data name="groupbooks" xml:space="preserve">
     <value>Libros</value>
@@ -497,5 +497,17 @@
   </data>
   <data name="repusuarios" xml:space="preserve">
     <value>Informederegistros</value>
+  </data>
+  <data name="msgsave" xml:space="preserve">
+    <value>Registro guardado correctamente</value>
+  </data>
+  <data name="msgupdated" xml:space="preserve">
+    <value>Registro actualizado correctamente</value>
+  </data>
+  <data name="submanage" xml:space="preserve">
+    <value>Administrar</value>
+  </data>
+  <data name="subtabcontrol1" xml:space="preserve">
+    <value>Lista</value>
   </data>
 </root>
