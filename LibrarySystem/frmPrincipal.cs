@@ -303,5 +303,10 @@ namespace LibrarySystem
         {
 
         }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

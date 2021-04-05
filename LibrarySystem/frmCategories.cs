@@ -42,7 +42,6 @@ namespace LibrarySystem
             Label2.Text = Res.lbcategory;
             Label4.Text = Res.lbdeweydecimal;
             btnsave.Text = Res.btnsave;
-            btndelete.Text = Res.btndelete;
             btnnew.Text = Res.btnnew;
             btnclose.Text = Res.btnclose;
             Label3.Text = Res.lbsearch;
@@ -56,7 +55,6 @@ namespace LibrarySystem
             txtDeweyDecimal.Clear();
             sql = "Select CategoryId as '"+Res.colcategoryid+"',`Category` as '"+Res.lbcategory + "',`DDecimal` as '"+Res.lbdeweydecimal + "' From tblcategory WHERE Category !='ALL' AND `Category` Like '%" + txtSearch.Text + "%'";
             config.Load_DTG(sql, dtglist);
-            btndelete.Enabled = false;
             txtCategory.Text = "";
             txtDeweyDecimal.Text = "";
         }
@@ -82,8 +80,8 @@ namespace LibrarySystem
                 config.Execute_CUD(sql, "error to execute the query.", "New category has been saved in the database.");
             } 
             btnnew_Click(sender, e);
+            tabControl1.SelectedTab = tabPage1;
 
-          
         }
 
         private void btndelete_Click(object sender, EventArgs e)
@@ -117,7 +115,7 @@ namespace LibrarySystem
             categoryid = dtglist.CurrentRow.Cells[0].Value.ToString();
             txtCategory.Text = dtglist.CurrentRow.Cells[1].Value.ToString();
             txtDeweyDecimal.Text = dtglist.CurrentRow.Cells[2].Value.ToString();
-            btndelete.Enabled = true;
+
         }
 
         private void Button5_Click(object sender, EventArgs e)
@@ -133,17 +131,23 @@ namespace LibrarySystem
             {
                 sql = "Delete From tblcategory WHERE CategoryId = " + dtglist.CurrentRow.Cells[0].Value;
                 config.Execute_Query(sql);
-                MessageBox.Show("Data has been deleted.");
                 btnnew_Click(sender, e);
             }
         }
 
+        private void Btnclose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void dtglist_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            categoryid = dtglist.CurrentRow.Cells[0].Value.ToString();
-            txtCategory.Text = dtglist.CurrentRow.Cells[1].Value.ToString();
-            txtDeweyDecimal.Text = dtglist.CurrentRow.Cells[2].Value.ToString();
-            btndelete.Enabled = true;
+
         }
     }
 }

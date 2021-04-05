@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btndelete = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
             this.btnclose = new System.Windows.Forms.Button();
@@ -46,22 +45,12 @@
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label5 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtglist)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btndelete
-            // 
-            this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(188, 214);
-            this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(61, 29);
-            this.btndelete.TabIndex = 19;
-            this.btndelete.Text = "Delete";
-            this.btndelete.UseVisualStyleBackColor = true;
-            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // txtSearch
             // 
@@ -86,17 +75,18 @@
             // btnclose
             // 
             this.btnclose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.Location = new System.Drawing.Point(415, 214);
+            this.btnclose.Location = new System.Drawing.Point(398, 214);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(61, 29);
             this.btnclose.TabIndex = 14;
             this.btnclose.Text = "Close";
             this.btnclose.UseVisualStyleBackColor = true;
+            this.btnclose.Click += new System.EventHandler(this.Btnclose_Click);
             // 
             // btnnew
             // 
             this.btnnew.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnew.Location = new System.Drawing.Point(309, 214);
+            this.btnnew.Location = new System.Drawing.Point(293, 214);
             this.btnnew.Name = "btnnew";
             this.btnnew.Size = new System.Drawing.Size(61, 29);
             this.btnnew.TabIndex = 15;
@@ -107,7 +97,7 @@
             // btnsave
             // 
             this.btnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsave.Location = new System.Drawing.Point(87, 214);
+            this.btnsave.Location = new System.Drawing.Point(194, 214);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(61, 29);
             this.btnsave.TabIndex = 16;
@@ -261,7 +251,6 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.Label2);
-            this.tabPage2.Controls.Add(this.btndelete);
             this.tabPage2.Controls.Add(this.txtCategory);
             this.tabPage2.Controls.Add(this.btnclose);
             this.tabPage2.Controls.Add(this.Label4);
@@ -287,6 +276,21 @@
             this.label5.TabIndex = 46;
             this.label5.Text = "Manage Categories";
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Transparent;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Black;
+            this.button7.Location = new System.Drawing.Point(619, 12);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(32, 29);
+            this.button7.TabIndex = 47;
+            this.button7.Text = "X";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
+            // 
             // frmCategories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,6 +298,7 @@
             this.BackgroundImage = global::LibrarySystem.Properties.Resources.blue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(663, 431);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.tabControl1);
             this.DoubleBuffered = true;
@@ -314,8 +319,6 @@
         }
 
         #endregion
-
-        internal System.Windows.Forms.Button btndelete;
         internal System.Windows.Forms.TextBox txtSearch;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.Button btnclose;
@@ -333,5 +336,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button7;
     }
 }
