@@ -80,5 +80,33 @@ namespace LibrarySystem
             OK.Text = Res.btnok;
             Cancel.Text = Res.btncancelar;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            sql = "SELECT * FROM `tbluser` WHERE User_name= '" + UsernameTextBox.Text + "' and Pass = sha1('" + PasswordTextBox.Text + "')";
+            config.singleResult(sql);
+
+            if (config.dt.Rows.Count > 0)
+            {
+                sql = "SELECT rol FROM `tbluser` WHERE User_name= '" + UsernameTextBox.Text + "' and Pass = sha1('" + PasswordTextBox.Text + "')";
+                config.Load_ResultList(sql, dataGridView1);
+                frmPrincipal frm = new frmPrincipal();
+                this.Hide();
+                frm.GetUser(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
+                frm.Show();
+            }
+            else
+            {
+                MessageBox.Show("Account does not exist. Please contact administrator.", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            //PasswordLabel.Text = Properties.Settings.Default.lenguaje;
+            //Properties.Settings.Default.lenguaje = PasswordLabel.Text;
+            //Properties.Settings.Default.Save();
+        }
     }
 }
