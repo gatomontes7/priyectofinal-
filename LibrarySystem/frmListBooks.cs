@@ -42,8 +42,6 @@ namespace LibrarySystem
         {
             frmBorrow form = frmBorrow.GetInstancia();
 
-
-
             sql = "Select * From tblbooks b, tblcategory c WHERE b.CategoryId=c.CategoryId AND AccessionNo='" + dtg_BlistOfBooks.CurrentRow.Cells[0].Value.ToString() + "'";
             config.singleResult(sql);
 

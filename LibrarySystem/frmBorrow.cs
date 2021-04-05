@@ -41,6 +41,12 @@ namespace LibrarySystem
             txtpublisher.Text = plublise;
             txtbooktype.Text = book;
         }
+        internal void setDatos1(string id, string title, string auto)
+        {
+            txtBorrowerId.Text = id;
+            txtName.Text = title;
+            txtCourse.Text = auto;
+        }
 
         SQLConfig config = new SQLConfig();
         usableFunction funct = new usableFunction();
@@ -238,6 +244,12 @@ namespace LibrarySystem
         private void FrmBorrow_FormClosed(object sender, FormClosedEventArgs e)
         {
             _Instancia = null;
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            frmListClient frm = new frmListClient();
+            frm.ShowDialog();
         }
     }
 }

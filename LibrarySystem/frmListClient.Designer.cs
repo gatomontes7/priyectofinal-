@@ -60,6 +60,7 @@
             this.btn_Bsave.TabIndex = 56;
             this.btn_Bsave.Text = "Enviar";
             this.btn_Bsave.UseVisualStyleBackColor = true;
+            this.btn_Bsave.Click += new System.EventHandler(this.Btn_Bsave_Click);
             // 
             // Label2
             // 
@@ -88,9 +89,9 @@
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(2, 1);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(210, 57);
+            this.label4.Size = new System.Drawing.Size(208, 57);
             this.label4.TabIndex = 53;
-            this.label4.Text = "List Bookc";
+            this.label4.Text = "Client List";
             // 
             // dtg_BlistOfBooks
             // 
@@ -129,6 +130,7 @@
             this.Name = "frmListClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmListClient";
+            this.Load += new System.EventHandler(this.FrmListClient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtg_BlistOfBooks)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

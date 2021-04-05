@@ -53,9 +53,6 @@ namespace LibrarySystem
 
         private void frm_login_Load(object sender, EventArgs e)
         {
-            frmPrincipal frm = new frmPrincipal();
-            this.Hide();
-            frm.Show();
             GetText();
 
         }

@@ -66,6 +66,7 @@
             this.check_due = new System.Windows.Forms.Timer(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.TabControl2.SuspendLayout();
             this.TabPage3.SuspendLayout();
             this.GroupBox1.SuspendLayout();
@@ -285,6 +286,7 @@
             // 
             // grp_Bgroup
             // 
+            this.grp_Bgroup.Controls.Add(this.button2);
             this.grp_Bgroup.Controls.Add(this.txtBorrowerId);
             this.grp_Bgroup.Controls.Add(this.cboPurpose);
             this.grp_Bgroup.Controls.Add(this.txtdue);
@@ -308,7 +310,7 @@
             this.txtBorrowerId.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtBorrowerId.Location = new System.Drawing.Point(125, 60);
             this.txtBorrowerId.Name = "txtBorrowerId";
-            this.txtBorrowerId.Size = new System.Drawing.Size(233, 25);
+            this.txtBorrowerId.Size = new System.Drawing.Size(102, 25);
             this.txtBorrowerId.TabIndex = 24;
             this.txtBorrowerId.TextChanged += new System.EventHandler(this.txtBorrowerId_TextChanged);
             // 
@@ -474,6 +476,17 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(233, 58);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(125, 28);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Buscar Cliente";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
             // frmBorrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -545,5 +558,6 @@
         private System.Windows.Forms.Label label4;
         internal System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button7;
+        internal System.Windows.Forms.Button button2;
     }
 }
