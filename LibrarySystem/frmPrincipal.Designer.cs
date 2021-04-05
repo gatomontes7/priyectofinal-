@@ -44,6 +44,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
@@ -57,7 +58,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -74,18 +74,19 @@
             this.españolToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(116, 48);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.ContextMenuStrip1_Opening);
             // 
             // inglesToolStripMenuItem
             // 
             this.inglesToolStripMenuItem.Name = "inglesToolStripMenuItem";
-            this.inglesToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.inglesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.inglesToolStripMenuItem.Text = "Ingles";
             this.inglesToolStripMenuItem.Click += new System.EventHandler(this.InglesToolStripMenuItem_Click);
             // 
             // españolToolStripMenuItem
             // 
             this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
-            this.españolToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.españolToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.españolToolStripMenuItem.Text = "Español";
             this.españolToolStripMenuItem.Click += new System.EventHandler(this.EspañolToolStripMenuItem_Click);
             // 
@@ -216,6 +217,21 @@
             this.panel2.Size = new System.Drawing.Size(824, 72);
             this.panel2.TabIndex = 1;
             // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Transparent;
+            this.button11.BackgroundImage = global::LibrarySystem.Properties.Resources.fondo;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(738, 18);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(32, 29);
+            this.button11.TabIndex = 26;
+            this.button11.Text = "_";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -322,7 +338,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(0, 335);
+            this.button6.Location = new System.Drawing.Point(0, 288);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(160, 48);
             this.button6.TabIndex = 4;
@@ -338,7 +354,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(0, 288);
+            this.button5.Location = new System.Drawing.Point(0, 241);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(160, 48);
             this.button5.TabIndex = 5;
@@ -354,7 +370,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(-2, 241);
+            this.button4.Location = new System.Drawing.Point(-2, 335);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(160, 48);
             this.button4.TabIndex = 4;
@@ -411,21 +427,6 @@
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             this.button1.MouseLeave += new System.EventHandler(this.Button1_MouseLeave);
             this.button1.MouseHover += new System.EventHandler(this.Button1_MouseHover);
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.Transparent;
-            this.button11.BackgroundImage = global::LibrarySystem.Properties.Resources.fondo;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(738, 18);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(32, 29);
-            this.button11.TabIndex = 26;
-            this.button11.Text = "_";
-            this.button11.UseVisualStyleBackColor = false;
             // 
             // frmPrincipal
             // 

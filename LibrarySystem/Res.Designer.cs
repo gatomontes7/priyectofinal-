@@ -988,6 +988,33 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Registro eliminado correctamente..
+        /// </summary>
+        internal static string msgdelecorecto {
+            get {
+                return ResourceManager.GetString("msgdelecorecto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Desea eliminar el Registro.
+        /// </summary>
+        internal static string msgeliminarreg {
+            get {
+                return ResourceManager.GetString("msgeliminarreg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Error al ejecutar la consulta.
+        /// </summary>
+        internal static string msgerror {
+            get {
+                return ResourceManager.GetString("msgerror", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Reporte diario.
         /// </summary>
         internal static string rddailyreport {

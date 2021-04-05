@@ -486,4 +486,13 @@
   <data name="colcategoryid" xml:space="preserve">
     <value>ID</value>
   </data>
+  <data name="msgdelecorecto" xml:space="preserve">
+    <value>Registro eliminado correctamente.</value>
+  </data>
+  <data name="msgeliminarreg" xml:space="preserve">
+    <value>Desea eliminar el Registro</value>
+  </data>
+  <data name="msgerror" xml:space="preserve">
+    <value>Error al ejecutar la consulta</value>
+  </data>
 </root>

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace LibrarySystem
 {
@@ -254,13 +255,33 @@ namespace LibrarySystem
             {
                 label4.Visible = true;
                 label4.Text = config.dt.Rows.Count.ToString();
+                if (Properties.Settings.Default.notifi!= config.dt.Rows.Count)
+                {
+                    if (config.dt.Rows.Count> Properties.Settings.Default.notifi)
+                    {
+                        SoundPlayer sonido = new SoundPlayer(@"C:\Windows\Media\notify.wav");
+                        sonido.Play();
+                    }
+                    Properties.Settings.Default.notifi = config.dt.Rows.Count;
+                    Properties.Settings.Default.Save();
+                }
             }
             else
             {
                 label4.Visible = false;
             }
         }
-
+        internal void GetUser(int rol)
+        {
+            if (rol == 0)
+            {
+                button4.Visible = true;
+            }
+            else
+            {
+                button4.Visible = false;
+            }
+        }
         private void Panel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -268,11 +289,11 @@ namespace LibrarySystem
         frmNotific frmnot = new frmNotific();
         private void Panel3_Click(object sender, EventArgs e)
         {
+
             frmnot.Location = Cursor.Position;
             frmnot.Hide();
             frmnot.recargar();
-            frmnot.Show();
-            
+            frmnot.Show(); 
         }
 
         private void FrmPrincipal_MouseHover(object sender, EventArgs e)
@@ -283,6 +304,11 @@ namespace LibrarySystem
         private void FrmPrincipal_Click(object sender, EventArgs e)
         {
             frmnot.Hide();
+        }
+
+        private void ContextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
         }
     }
 }

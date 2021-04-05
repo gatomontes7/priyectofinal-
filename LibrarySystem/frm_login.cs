@@ -30,8 +30,11 @@ namespace LibrarySystem
 
             if (config.dt.Rows.Count > 0)
             {
-                Form frm = new frmPrincipal();
+                sql = "SELECT rol FROM `tbluser` WHERE User_name= '" + UsernameTextBox.Text + "' and Pass = sha1('" + PasswordTextBox.Text + "')";
+                config.Load_ResultList(sql, dataGridView1);
+                frmPrincipal frm = new frmPrincipal();
                 this.Hide();
+                frm.GetUser(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
                 frm.Show();
             }
             else
@@ -50,7 +53,11 @@ namespace LibrarySystem
 
         private void frm_login_Load(object sender, EventArgs e)
         {
+            frmPrincipal frm = new frmPrincipal();
+            this.Hide();
+            frm.Show();
             GetText();
+
         }
 
         internal void cargar()

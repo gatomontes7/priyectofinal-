@@ -483,4 +483,13 @@
   <data name="colcategoryid" xml:space="preserve">
     <value>Category Id</value>
   </data>
+  <data name="msgdelecorecto" xml:space="preserve">
+    <value>Registry removed successfully.</value>
+  </data>
+  <data name="msgeliminarreg" xml:space="preserve">
+    <value>You want to delete the Registry</value>
+  </data>
+  <data name="msgerror" xml:space="preserve">
+    <value>Error to execute the query</value>
+  </data>
 </root>
