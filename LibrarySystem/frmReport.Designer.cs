@@ -171,7 +171,6 @@
             this.cboStatus.Name = "cboStatus";
             this.cboStatus.Size = new System.Drawing.Size(137, 21);
             this.cboStatus.TabIndex = 0;
-            this.cboStatus.Text = "Borrowed";
             // 
             // GroupBox1
             // 
