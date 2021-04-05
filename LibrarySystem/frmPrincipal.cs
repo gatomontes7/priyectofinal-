@@ -73,8 +73,8 @@ namespace LibrarySystem
 
         private void BtnBorrow_Click(object sender, EventArgs e)
         {
-            Form frm = new frmBorrow();
-            frm.ShowDialog();
+            frmBorrow form = frmBorrow.GetInstancia();
+            form.ShowDialog();
         }
 
         private void Button9_Click(object sender, EventArgs e)

@@ -35,6 +35,7 @@
             this.btnNew = new System.Windows.Forms.Button();
             this.btn_Bsave = new System.Windows.Forms.Button();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.txtAccesionNumBorrow = new System.Windows.Forms.TextBox();
             this.lblAccessionNumBorrow = new System.Windows.Forms.Label();
             this.txtbooktype = new System.Windows.Forms.TextBox();
@@ -63,6 +64,8 @@
             this.txt_Search = new System.Windows.Forms.TextBox();
             this.dtg_BlistOfBooks = new System.Windows.Forms.DataGridView();
             this.check_due = new System.Windows.Forms.Timer(this.components);
+            this.label4 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.TabControl2.SuspendLayout();
             this.TabPage3.SuspendLayout();
             this.GroupBox1.SuspendLayout();
@@ -76,10 +79,10 @@
             // 
             this.TabControl2.Controls.Add(this.TabPage3);
             this.TabControl2.Controls.Add(this.TabPage4);
-            this.TabControl2.Location = new System.Drawing.Point(12, 12);
+            this.TabControl2.Location = new System.Drawing.Point(12, 89);
             this.TabControl2.Name = "TabControl2";
             this.TabControl2.SelectedIndex = 0;
-            this.TabControl2.Size = new System.Drawing.Size(839, 439);
+            this.TabControl2.Size = new System.Drawing.Size(839, 362);
             this.TabControl2.TabIndex = 22;
             // 
             // TabPage3
@@ -92,7 +95,7 @@
             this.TabPage3.Location = new System.Drawing.Point(4, 22);
             this.TabPage3.Name = "TabPage3";
             this.TabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage3.Size = new System.Drawing.Size(831, 413);
+            this.TabPage3.Size = new System.Drawing.Size(831, 336);
             this.TabPage3.TabIndex = 0;
             this.TabPage3.Text = "Details";
             this.TabPage3.UseVisualStyleBackColor = true;
@@ -132,6 +135,7 @@
             // 
             // GroupBox1
             // 
+            this.GroupBox1.Controls.Add(this.button1);
             this.GroupBox1.Controls.Add(this.txtAccesionNumBorrow);
             this.GroupBox1.Controls.Add(this.lblAccessionNumBorrow);
             this.GroupBox1.Controls.Add(this.txtbooktype);
@@ -152,13 +156,25 @@
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Book\'s Details";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(238, 49);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 28);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Buscar Libro";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // txtAccesionNumBorrow
             // 
             this.txtAccesionNumBorrow.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.txtAccesionNumBorrow.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.txtAccesionNumBorrow.Enabled = false;
             this.txtAccesionNumBorrow.Location = new System.Drawing.Point(118, 50);
             this.txtAccesionNumBorrow.Name = "txtAccesionNumBorrow";
-            this.txtAccesionNumBorrow.Size = new System.Drawing.Size(250, 25);
+            this.txtAccesionNumBorrow.Size = new System.Drawing.Size(103, 25);
             this.txtAccesionNumBorrow.TabIndex = 17;
             this.txtAccesionNumBorrow.TextChanged += new System.EventHandler(this.txtAccesionNumBorrow_TextChanged);
             // 
@@ -373,7 +389,7 @@
             this.TabPage4.Location = new System.Drawing.Point(4, 22);
             this.TabPage4.Name = "TabPage4";
             this.TabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage4.Size = new System.Drawing.Size(831, 413);
+            this.TabPage4.Size = new System.Drawing.Size(831, 336);
             this.TabPage4.TabIndex = 1;
             this.TabPage4.Text = "Borrowed Books";
             this.TabPage4.UseVisualStyleBackColor = true;
@@ -432,15 +448,48 @@
             // 
             this.check_due.Tick += new System.EventHandler(this.check_due_Tick);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(269, 57);
+            this.label4.TabIndex = 46;
+            this.label4.Text = "Manage Users";
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Transparent;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Black;
+            this.button7.Location = new System.Drawing.Point(810, 12);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(32, 29);
+            this.button7.TabIndex = 52;
+            this.button7.Text = "X";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
+            // 
             // frmBorrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::LibrarySystem.Properties.Resources.gray;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(854, 460);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.TabControl2);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmBorrow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Borrow Books";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmBorrow_FormClosed);
             this.Load += new System.EventHandler(this.frmBorrow_Load);
             this.TabControl2.ResumeLayout(false);
             this.TabPage3.ResumeLayout(false);
@@ -453,6 +502,7 @@
             this.GroupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_BlistOfBooks)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -492,5 +542,8 @@
         internal System.Windows.Forms.TextBox txt_Search;
         internal System.Windows.Forms.DataGridView dtg_BlistOfBooks;
         internal System.Windows.Forms.Timer check_due;
+        private System.Windows.Forms.Label label4;
+        internal System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button7;
     }
 }

@@ -20,6 +20,28 @@ namespace LibrarySystem
             InitializeComponent();
         }
 
+
+        private static frmBorrow _Instancia;
+
+        public static frmBorrow GetInstancia()
+        {
+            if (_Instancia == null)
+            {
+                _Instancia = new frmBorrow();
+            }
+            return _Instancia;
+        }
+
+        internal void setDatos(string id,string title, string auto, string date,string plublise, string book)
+        {
+            txtAccesionNumBorrow.Text = id;
+            txtTitle.Text = title;
+            txtAuthor.Text = auto;
+            txtDatePublish.Text = date;
+            txtpublisher.Text = plublise;
+            txtbooktype.Text = book;
+        }
+
         SQLConfig config = new SQLConfig();
         usableFunction funct = new usableFunction();
         string sql;
@@ -48,8 +70,6 @@ namespace LibrarySystem
                 }
               
             }
-
-             
         }
 
         private void frmBorrow_Load(object sender, EventArgs e)
@@ -60,8 +80,7 @@ namespace LibrarySystem
 
         private void GetText()
         {
-
-
+            label4.Text = Res.frmborrowers;
             this.Text = Res.frmborrowers;
             lblAccessionNumBorrow.Text = Res.lbaccession;
             Label1.Text = Res.lbtitle;
@@ -203,8 +222,22 @@ namespace LibrarySystem
                     " FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  " +
                     " WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND (BookTitle Like '%" + txt_Search.Text + "' or br.AccessionNo Like '%" + txt_Search.Text + "%' OR Concat(`Firstname`,' ', `Lastname`)  Like '%" + txt_Search.Text + "') ORDER BY BorrowId Desc";
             config.Load_ResultList(sql, dtg_BlistOfBooks);
+        }
 
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            frmListBooks frm = new frmListBooks();
+            frm.ShowDialog();
+        }
 
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FrmBorrow_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _Instancia = null;
         }
     }
 }
