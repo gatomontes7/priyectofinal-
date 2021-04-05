@@ -235,7 +235,7 @@
     <value>Administrar usuarios</value>
   </data>
   <data name="frm_login" xml:space="preserve">
-    <value>Iniciar Sesion</value>
+    <value>CUENTA DE INGRESO</value>
   </data>
   <data name="groupbooks" xml:space="preserve">
     <value>Libros</value>

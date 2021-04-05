@@ -331,7 +331,7 @@ namespace LibrarySystem {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Iniciar Sesion.
+        ///   Busca una cadena traducida similar a CUENTA DE INGRESO.
         /// </summary>
         internal static string frm_login {
             get {

@@ -235,7 +235,7 @@
     <value>Manage Users</value>
   </data>
   <data name="frm_login" xml:space="preserve">
-    <value>Log in</value>
+    <value>ACCOUNT LOGIN</value>
   </data>
   <data name="groupbooks" xml:space="preserve">
     <value>Books</value>
