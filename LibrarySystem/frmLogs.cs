@@ -51,11 +51,9 @@ namespace LibrarySystem
         }
         private void frmLogs_Load(object sender, EventArgs e)
         {
-
             sql = "SELECT `Fullname`, `User_name`, `UserRole`,`LogDate`, `LogMode` FROM `tbllogs` l, `tbluser` u WHERE l.`UserId`=u.`UserId`";
-
             reports(sql, Res.repusuarios);
-
+            this.Text = Res.frmlogs;
         }
     }
 }

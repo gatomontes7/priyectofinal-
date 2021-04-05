@@ -39,13 +39,23 @@
             this.Label4 = new System.Windows.Forms.Label();
             this.txtCategory = new System.Windows.Forms.TextBox();
             this.Label2 = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtglist)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btndelete
             // 
             this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(249, 96);
+            this.btndelete.Location = new System.Drawing.Point(259, 133);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(61, 29);
             this.btndelete.TabIndex = 19;
@@ -57,7 +67,7 @@
             // 
             this.txtSearch.BackColor = System.Drawing.Color.White;
             this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(372, 155);
+            this.txtSearch.Location = new System.Drawing.Point(84, 26);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(232, 23);
             this.txtSearch.TabIndex = 18;
@@ -66,7 +76,7 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(301, 158);
+            this.Label3.Location = new System.Drawing.Point(13, 29);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(65, 17);
             this.Label3.TabIndex = 17;
@@ -75,7 +85,7 @@
             // btnclose
             // 
             this.btnclose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.Location = new System.Drawing.Point(383, 96);
+            this.btnclose.Location = new System.Drawing.Point(393, 133);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(61, 29);
             this.btnclose.TabIndex = 14;
@@ -85,7 +95,7 @@
             // btnnew
             // 
             this.btnnew.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnew.Location = new System.Drawing.Point(316, 96);
+            this.btnnew.Location = new System.Drawing.Point(326, 133);
             this.btnnew.Name = "btnnew";
             this.btnnew.Size = new System.Drawing.Size(61, 29);
             this.btnnew.TabIndex = 15;
@@ -96,7 +106,7 @@
             // btnsave
             // 
             this.btnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsave.Location = new System.Drawing.Point(182, 96);
+            this.btnsave.Location = new System.Drawing.Point(192, 133);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(61, 29);
             this.btnsave.TabIndex = 16;
@@ -112,20 +122,21 @@
             this.dtglist.AllowUserToResizeRows = false;
             this.dtglist.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtglist.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtglist.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dtglist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtglist.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dtglist.Location = new System.Drawing.Point(12, 184);
+            this.dtglist.Location = new System.Drawing.Point(17, 65);
             this.dtglist.Name = "dtglist";
             this.dtglist.RowHeadersVisible = false;
             this.dtglist.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtglist.Size = new System.Drawing.Size(592, 276);
+            this.dtglist.Size = new System.Drawing.Size(559, 232);
             this.dtglist.TabIndex = 12;
             this.dtglist.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtglist_CellClick);
             // 
             // txtDeweyDecimal
             // 
             this.txtDeweyDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDeweyDecimal.Location = new System.Drawing.Point(178, 51);
+            this.txtDeweyDecimal.Location = new System.Drawing.Point(188, 88);
             this.txtDeweyDecimal.Name = "txtDeweyDecimal";
             this.txtDeweyDecimal.Size = new System.Drawing.Size(318, 23);
             this.txtDeweyDecimal.TabIndex = 13;
@@ -134,7 +145,7 @@
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(61, 54);
+            this.Label4.Location = new System.Drawing.Point(71, 91);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(112, 17);
             this.Label4.TabIndex = 9;
@@ -143,7 +154,7 @@
             // txtCategory
             // 
             this.txtCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCategory.Location = new System.Drawing.Point(178, 22);
+            this.txtCategory.Location = new System.Drawing.Point(188, 59);
             this.txtCategory.Name = "txtCategory";
             this.txtCategory.Size = new System.Drawing.Size(318, 23);
             this.txtCategory.TabIndex = 11;
@@ -152,33 +163,146 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(61, 25);
+            this.Label2.Location = new System.Drawing.Point(71, 62);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(77, 17);
             this.Label2.TabIndex = 10;
             this.Label2.Text = "Category : ";
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Location = new System.Drawing.Point(30, 69);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(606, 346);
+            this.tabControl1.TabIndex = 45;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.Label3);
+            this.tabPage1.Controls.Add(this.txtSearch);
+            this.tabPage1.Controls.Add(this.button5);
+            this.tabPage1.Controls.Add(this.button4);
+            this.tabPage1.Controls.Add(this.button3);
+            this.tabPage1.Controls.Add(this.dtglist);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(598, 317);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "List";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = global::LibrarySystem.Properties.Resources.delete;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button5.Location = new System.Drawing.Point(526, 8);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(50, 50);
+            this.button5.TabIndex = 46;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::LibrarySystem.Properties.Resources.edit;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button4.Location = new System.Drawing.Point(471, 8);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(50, 50);
+            this.button4.TabIndex = 45;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::LibrarySystem.Properties.Resources.add;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button3.Location = new System.Drawing.Point(415, 7);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(50, 50);
+            this.button3.TabIndex = 44;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.Label2);
+            this.tabPage2.Controls.Add(this.btndelete);
+            this.tabPage2.Controls.Add(this.txtCategory);
+            this.tabPage2.Controls.Add(this.btnclose);
+            this.tabPage2.Controls.Add(this.Label4);
+            this.tabPage2.Controls.Add(this.btnnew);
+            this.tabPage2.Controls.Add(this.txtDeweyDecimal);
+            this.tabPage2.Controls.Add(this.btnsave);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(587, 317);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Manage";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(19, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(344, 57);
+            this.label5.TabIndex = 46;
+            this.label5.Text = "Manage Categories";
+            // 
             // frmCategories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(619, 479);
-            this.Controls.Add(this.btndelete);
-            this.Controls.Add(this.txtSearch);
-            this.Controls.Add(this.Label3);
-            this.Controls.Add(this.btnclose);
-            this.Controls.Add(this.btnnew);
-            this.Controls.Add(this.btnsave);
-            this.Controls.Add(this.dtglist);
-            this.Controls.Add(this.txtDeweyDecimal);
-            this.Controls.Add(this.Label4);
-            this.Controls.Add(this.txtCategory);
-            this.Controls.Add(this.Label2);
+            this.BackgroundImage = global::LibrarySystem.Properties.Resources.blue;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(663, 431);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.tabControl1);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmCategories";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Book Categories";
             this.Load += new System.EventHandler(this.frmCategories_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtglist)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,5 +321,12 @@
         internal System.Windows.Forms.Label Label4;
         internal System.Windows.Forms.TextBox txtCategory;
         internal System.Windows.Forms.Label Label2;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Label label5;
     }
 }

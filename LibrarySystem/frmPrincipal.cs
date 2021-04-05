@@ -110,14 +110,7 @@ namespace LibrarySystem
         private void GetText()
         {
             sql = "SELECT `Fullname`, `User_name`, `UserRole`,`LogDate`, `LogMode` FROM `tbllogs` l, `tbluser` u WHERE l.`UserId`=u.`UserId`";
-            if (Properties.Settings.Default.lenguaje == "en-US")
-            {
-                reports(sql, "LogsReport");
-            }
-            else
-            {
-                reports(sql, "Informederegistros");
-            }
+            reports(sql, Res.repusuarios);
             this.Text = Res.frmprincipal;
             label1.Text = Res.frmprincipal;
             //this.menuStrip1.Items[0].Text = Res.subfile;
