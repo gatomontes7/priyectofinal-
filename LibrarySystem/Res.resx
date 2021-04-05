@@ -510,4 +510,10 @@
   <data name="subtabcontrol1" xml:space="preserve">
     <value>Lista</value>
   </data>
+  <data name="lbbooklist" xml:space="preserve">
+    <value>Lista de libros</value>
+  </data>
+  <data name="lbsend" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
 </root>

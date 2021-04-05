@@ -24,6 +24,14 @@ namespace LibrarySystem
         {
             sql = " SELECT br.`AccessionNo` as '" + Res.colaccessionno + "', `BookTitle` as '" + Res.colbooktitle + "', `BookDesc` as '" + Res.coldescription + "',Concat(`Firstname`,' ', `Lastname`) as '" + Res.colborrower + "' ,`NoCopies` as '" + Res.colnocopies + "', `DateBorrowed` as '" + Res.coldateborrowed + "', `Purpose` as '" + Res.colpurpose + "' , `DueDate` as '" + Res.colduedate + "' FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND  `BookTitle` Like '%" + txt_Search.Text + "%' ORDER BY BorrowId Desc";
             config.Load_ResultList(sql, dtg_BlistOfBooks);
+            GetText();
+        }
+        private void GetText()
+        {
+            this.Text = Res.frm_login;
+            label4.Text = Res.lbbooklist;
+            Label2.Text = Res.lbsearch;
+            btn_Bsave.Text = Res.lbsend;
         }
 
         private void Button7_Click(object sender, EventArgs e)

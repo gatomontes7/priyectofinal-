@@ -610,6 +610,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Lista de libros.
+        /// </summary>
+        internal static string lbbooklist {
+            get {
+                return ResourceManager.GetString("lbbooklist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Titulo del libro:.
         /// </summary>
         internal static string lbbooktitle {
@@ -849,6 +858,15 @@ namespace LibrarySystem {
         internal static string lbsearch {
             get {
                 return ResourceManager.GetString("lbsearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enviar.
+        /// </summary>
+        internal static string lbsend {
+            get {
+                return ResourceManager.GetString("lbsend", resourceCulture);
             }
         }
         
