@@ -76,6 +76,12 @@ namespace LibrarySystem
             Label2.Text = Res.lbstartdate;
             Label3.Text = Res.lbenddate;
             btn_preview.Text = Res.btnpreview;
+            cboStatus.Items.Clear();
+            cboStatus.Text = Res.itemborrowed;
+            cboStatus.Items.Add(Res.itemborrowed);
+
+            cboStatus.Items.Add(Res.itemreturned);
+            cboStatus.Items.Add(Res.itemoverdue);
 
         }
 
