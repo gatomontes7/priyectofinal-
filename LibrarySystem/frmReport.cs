@@ -102,21 +102,24 @@ namespace LibrarySystem
 
         private void rdoDaily_CheckedChanged(object sender, EventArgs e)
         {
-            switch (cboStatus.Text)
+
+            if (cboStatus.SelectedItem.ToString() == Res.itemborrowed)
             {
-                case "Borrowed":
-                    sql = "SELECT br.`AccessionNo`, `BookTitle`, `BookDesc` as 'Description',Concat(`Firstname`,' ', `Lastname`) as 'Borrower',`NoCopies`, `DateBorrowed`, `Purpose`, `DueDate` FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND  Date(`DateBorrowed`) = CURDATE() ";
-                    reports(sql, "DailyBorrowed");
-                    break;
-                case "Returned":
-                    sql = "SELECT bw.`BorrowerId`, `Firstname`, `Lastname`,DateBorrowed,b.`AccessionNo`,`BookTitle`, `BookDesc`,r.`NoCopies`, `DateReturned`  FROM `tblreturn` r, `tblborrow` br,`tblborrower` bw, `tblbooks` b  WHERE r.`BorrowId`=br.`BorrowId` AND br.`AccessionNo`=b.`AccessionNo` AND br.`BorrowerId`=bw.`BorrowerId` AND br.`Status` = 'Returned' AND Date(`DateReturned`) = CURDATE() ";
-                    reports(sql, "DailyReturned");
-                    break;
-                case "Overdue":
-                    sql = "SELECT br.`AccessionNo`, `BookTitle`, `BookDesc` as 'Description',Concat(`Firstname`,' ', `Lastname`) as 'Borrower',`NoCopies`, `DateBorrowed`, `Purpose`, `DueDate` FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND Remarks='Overdue'  AND Date(`DueDate`) = CURDATE() ";
-                    reports(sql, "DailyDue");
-                    break;
-            } 
+                sql = "SELECT br.`AccessionNo`, `BookTitle`, `BookDesc` as 'Description',Concat(`Firstname`,' ', `Lastname`) as 'Borrower',`NoCopies`, `DateBorrowed`, `Purpose`, `DueDate` FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND  Date(`DateBorrowed`) = CURDATE() ";
+                reports(sql, "DailyBorrowed");
+            }
+            else if (cboStatus.SelectedItem.ToString() == Res.itemreturned)
+            {
+
+                sql = "SELECT bw.`BorrowerId`, `Firstname`, `Lastname`,DateBorrowed,b.`AccessionNo`,`BookTitle`, `BookDesc`,r.`NoCopies`, `DateReturned`  FROM `tblreturn` r, `tblborrow` br,`tblborrower` bw, `tblbooks` b  WHERE r.`BorrowId`=br.`BorrowId` AND br.`AccessionNo`=b.`AccessionNo` AND br.`BorrowerId`=bw.`BorrowerId` AND br.`Status` = 'Returned' AND Date(`DateReturned`) = CURDATE() ";
+                reports(sql, "DailyReturned");
+
+            }
+            else if (cboStatus.SelectedItem.ToString() == Res.itemoverdue)
+            {
+                sql = "SELECT br.`AccessionNo`, `BookTitle`, `BookDesc` as 'Description',Concat(`Firstname`,' ', `Lastname`) as 'Borrower',`NoCopies`, `DateBorrowed`, `Purpose`, `DueDate` FROM `tblborrow` br,`tblbooks` b,`tblborrower` bw  WHERE br.AccessionNo=b.AccessionNo AND br.`BorrowerId`=bw.`BorrowerId` AND Remarks='Overdue'  AND Date(`DueDate`) = CURDATE() ";
+                reports(sql, "DailyDue");
+            }
 
         }
 
