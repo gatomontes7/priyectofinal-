@@ -55,7 +55,7 @@
             // btndelete
             // 
             this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(259, 133);
+            this.btndelete.Location = new System.Drawing.Point(188, 214);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(61, 29);
             this.btndelete.TabIndex = 19;
@@ -71,6 +71,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(232, 23);
             this.txtSearch.TabIndex = 18;
+            this.txtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
             // 
             // Label3
             // 
@@ -85,7 +86,7 @@
             // btnclose
             // 
             this.btnclose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnclose.Location = new System.Drawing.Point(393, 133);
+            this.btnclose.Location = new System.Drawing.Point(415, 214);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(61, 29);
             this.btnclose.TabIndex = 14;
@@ -95,7 +96,7 @@
             // btnnew
             // 
             this.btnnew.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnnew.Location = new System.Drawing.Point(326, 133);
+            this.btnnew.Location = new System.Drawing.Point(309, 214);
             this.btnnew.Name = "btnnew";
             this.btnnew.Size = new System.Drawing.Size(61, 29);
             this.btnnew.TabIndex = 15;
@@ -106,7 +107,7 @@
             // btnsave
             // 
             this.btnsave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsave.Location = new System.Drawing.Point(192, 133);
+            this.btnsave.Location = new System.Drawing.Point(87, 214);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(61, 29);
             this.btnsave.TabIndex = 16;
@@ -136,16 +137,16 @@
             // txtDeweyDecimal
             // 
             this.txtDeweyDecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDeweyDecimal.Location = new System.Drawing.Point(188, 88);
+            this.txtDeweyDecimal.Location = new System.Drawing.Point(204, 136);
             this.txtDeweyDecimal.Name = "txtDeweyDecimal";
-            this.txtDeweyDecimal.Size = new System.Drawing.Size(318, 23);
+            this.txtDeweyDecimal.Size = new System.Drawing.Size(242, 23);
             this.txtDeweyDecimal.TabIndex = 13;
             // 
             // Label4
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(71, 91);
+            this.Label4.Location = new System.Drawing.Point(71, 136);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(112, 17);
             this.Label4.TabIndex = 9;
@@ -154,16 +155,17 @@
             // txtCategory
             // 
             this.txtCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCategory.Location = new System.Drawing.Point(188, 59);
+            this.txtCategory.Location = new System.Drawing.Point(204, 88);
             this.txtCategory.Name = "txtCategory";
-            this.txtCategory.Size = new System.Drawing.Size(318, 23);
+            this.txtCategory.Size = new System.Drawing.Size(242, 23);
             this.txtCategory.TabIndex = 11;
+            this.txtCategory.TextChanged += new System.EventHandler(this.TxtCategory_TextChanged);
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(71, 62);
+            this.Label2.Location = new System.Drawing.Point(71, 88);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(77, 17);
             this.Label2.TabIndex = 10;
@@ -214,6 +216,7 @@
             this.button5.Size = new System.Drawing.Size(50, 50);
             this.button5.TabIndex = 46;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // button4
             // 
@@ -233,6 +236,7 @@
             this.button4.Size = new System.Drawing.Size(50, 50);
             this.button4.TabIndex = 45;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // button3
             // 
@@ -252,6 +256,7 @@
             this.button3.Size = new System.Drawing.Size(50, 50);
             this.button3.TabIndex = 44;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // tabPage2
             // 
@@ -266,7 +271,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(587, 317);
+            this.tabPage2.Size = new System.Drawing.Size(598, 317);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Manage";
             this.tabPage2.UseVisualStyleBackColor = true;

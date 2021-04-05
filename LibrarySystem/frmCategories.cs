@@ -54,9 +54,11 @@ namespace LibrarySystem
             categoryid = "0";
             txtCategory.Clear();
             txtDeweyDecimal.Clear();
-            sql = "Select CategoryId as '"+Res.colcategoryid+"',`Category` as '"+Res.lbcategory + "',`DDecimal` as '"+Res.lbdeweydecimal + "' From tblcategory WHERE Category !='ALL'";
+            sql = "Select CategoryId as '"+Res.colcategoryid+"',`Category` as '"+Res.lbcategory + "',`DDecimal` as '"+Res.lbdeweydecimal + "' From tblcategory WHERE Category !='ALL' AND `Category` Like '%" + txtSearch.Text + "%'";
             config.Load_DTG(sql, dtglist);
             btndelete.Enabled = false;
+            txtCategory.Text = "";
+            txtDeweyDecimal.Text = "";
         }
 
         private void btnsave_Click(object sender, EventArgs e)
@@ -90,6 +92,50 @@ namespace LibrarySystem
             config.Execute_Query(sql);
             MessageBox.Show("Data has been deleted.");
             btnnew_Click(sender, e);
+        }
+
+        private void TxtCategory_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtSearch_TextChanged(object sender, EventArgs e)
+        {
+            btnnew_Click(sender, e);
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage2;
+            btnnew_Click(sender, e);
+
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage2;
+            categoryid = dtglist.CurrentRow.Cells[0].Value.ToString();
+            txtCategory.Text = dtglist.CurrentRow.Cells[1].Value.ToString();
+            txtDeweyDecimal.Text = dtglist.CurrentRow.Cells[2].Value.ToString();
+            btndelete.Enabled = true;
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            string message = Res.msgeliminarreg;
+            string caption = Res.msgconfirmacion;
+
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            result = MessageBox.Show(message, caption, buttons);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                sql = "Delete From tblcategory WHERE CategoryId = " + dtglist.CurrentRow.Cells[0].Value;
+                config.Execute_Query(sql);
+                MessageBox.Show("Data has been deleted.");
+                btnnew_Click(sender, e);
+            }
         }
 
         private void dtglist_CellClick(object sender, DataGridViewCellEventArgs e)
