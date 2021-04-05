@@ -45,7 +45,8 @@ namespace LibrarySystem
             btnnew.Text = Res.btnnew;
             btnclose.Text = Res.btnclose;
             Label3.Text = Res.lbsearch;
-
+            tabPage1.Text = Res.subtabcontrol1;
+            tabPage2.Text = Res.submanage;
         }
 
         private void btnnew_Click(object sender, EventArgs e)

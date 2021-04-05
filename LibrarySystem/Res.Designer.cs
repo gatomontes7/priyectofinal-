@@ -1150,6 +1150,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Administrar.
+        /// </summary>
+        internal static string submanage {
+            get {
+                return ResourceManager.GetString("submanage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Informes.
         /// </summary>
         internal static string subreports {
@@ -1173,6 +1182,15 @@ namespace LibrarySystem {
         internal static string subspanish {
             get {
                 return ResourceManager.GetString("subspanish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Lista.
+        /// </summary>
+        internal static string subtabcontrol1 {
+            get {
+                return ResourceManager.GetString("subtabcontrol1", resourceCulture);
             }
         }
         

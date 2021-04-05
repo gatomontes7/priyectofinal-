@@ -495,4 +495,10 @@
   <data name="repusuarios" xml:space="preserve">
     <value>LogsReport</value>
   </data>
+  <data name="submanage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="subtabcontrol1" xml:space="preserve">
+    <value>List</value>
+  </data>
 </root>

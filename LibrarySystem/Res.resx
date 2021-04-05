@@ -498,4 +498,10 @@
   <data name="repusuarios" xml:space="preserve">
     <value>Informederegistros</value>
   </data>
+  <data name="submanage" xml:space="preserve">
+    <value>Administrar</value>
+  </data>
+  <data name="subtabcontrol1" xml:space="preserve">
+    <value>Lista</value>
+  </data>
 </root>
