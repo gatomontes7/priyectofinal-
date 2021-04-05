@@ -41,6 +41,11 @@ namespace LibrarySystem
             this.Close();
         }
 
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         public void cargar()
         {
             sql = "SELECT BorrowerId as '" + Res.lbborrowerid + "',`Firstname` as '" + Res.lbfirstname + "', `Lastname` as '" + Res.lblastname + "', `MiddleName` as '" + Res.lbmiddlename + "', `Address` as '" + Res.lbadress + "', `Sex` as '" + Res.lbsexo + "', `ContactNo` as '" + Res.lbcontactno + "', `CourseYear`  as '" + Res.lbcourse + "' FROM `tblborrower`  WHERE Stats='Active'";

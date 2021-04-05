@@ -50,6 +50,7 @@
             this.button7.TabIndex = 57;
             this.button7.Text = "X";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
             // btn_Bsave
             // 
