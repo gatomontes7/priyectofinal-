@@ -64,16 +64,16 @@
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(17, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(210, 57);
+            this.label4.Size = new System.Drawing.Size(194, 57);
             this.label4.TabIndex = 47;
-            this.label4.Text = "List Bookc";
+            this.label4.Text = "Book List";
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
             this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(302, 35);
+            this.Label2.Location = new System.Drawing.Point(287, 35);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(73, 25);
             this.Label2.TabIndex = 49;
