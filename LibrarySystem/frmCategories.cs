@@ -73,12 +73,12 @@ namespace LibrarySystem
             if (config.dt.Rows.Count > 0)
             {
                 sql = "UPDATE `tblcategory` SET `Category`='" + txtCategory.Text + "',`DDecimal`='" + txtDeweyDecimal.Text + "' WHERE CategoryId='" + categoryid + "'";
-                config.Execute_CUD(sql, "error to execute the query.", "Category has been updated in the database.");
+                config.Execute_CUD(sql, Res.msgerror, Res.msgupdated);
             }
             else
             {
                 sql = "INSERT INTO `tblcategory` (`Category`,`DDecimal`) VALUES ('" + txtCategory.Text + "','" + txtDeweyDecimal.Text + "')";
-                config.Execute_CUD(sql, "error to execute the query.", "New category has been saved in the database.");
+                config.Execute_CUD(sql, Res.msgerror, Res.msgsave);
             } 
             btnnew_Click(sender, e);
             tabControl1.SelectedTab = tabPage1;

@@ -1015,6 +1015,24 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Registro guardado correctamente.
+        /// </summary>
+        internal static string msgsave {
+            get {
+                return ResourceManager.GetString("msgsave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Registro actualizado correctamente.
+        /// </summary>
+        internal static string msgupdated {
+            get {
+                return ResourceManager.GetString("msgupdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Reporte diario.
         /// </summary>
         internal static string rddailyreport {
