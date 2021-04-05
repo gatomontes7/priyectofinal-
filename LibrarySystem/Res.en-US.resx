@@ -492,4 +492,7 @@
   <data name="msgerror" xml:space="preserve">
     <value>Error to execute the query</value>
   </data>
+  <data name="repusuarios" xml:space="preserve">
+    <value>LogsReport</value>
+  </data>
 </root>

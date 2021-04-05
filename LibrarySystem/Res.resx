@@ -495,4 +495,7 @@
   <data name="msgerror" xml:space="preserve">
     <value>Error al ejecutar la consulta</value>
   </data>
+  <data name="repusuarios" xml:space="preserve">
+    <value>Informederegistros</value>
+  </data>
 </root>

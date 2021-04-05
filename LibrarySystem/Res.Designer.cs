@@ -1060,6 +1060,15 @@ namespace LibrarySystem {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Informederegistros.
+        /// </summary>
+        internal static string repusuarios {
+            get {
+                return ResourceManager.GetString("repusuarios", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Administrar libros.
         /// </summary>
         internal static string subbook {
